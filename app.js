@@ -71,11 +71,6 @@ const els = {
   searchInput: document.getElementById('searchInput'),
   searchSpinner: document.getElementById('searchSpinner'),
   suggestionsList: document.getElementById('suggestionsList'),
-  emptyState: document.getElementById('emptyState'),
-  loadingOverlay: document.getElementById('loadingOverlay'),
-  errorCard: document.getElementById('errorCard'),
-  errorMessage: document.getElementById('errorMessage'),
-  retryBtn: document.getElementById('retryBtn'),
   detailsSection: document.getElementById('detailsSection'),
   pokeArtwork: document.getElementById('pokeArtwork'),
   pokeName: document.getElementById('pokeName'),
@@ -254,25 +249,15 @@ function switchTab(tab) {
 }
 
 /* ——— UI State Machine ——— */
-// state: 'idle' | 'loading' | 'error' | 'ready'
+// state: 'loading' | 'ready' (idle/error agora silent)
 function setUiState(state, errorMsg) {
-  const all = [els.emptyState, els.loadingOverlay, els.errorCard, els.detailsSection];
-  all.forEach(el => el.setAttribute('hidden', ''));
-
-  if (state === 'idle') {
-    els.emptyState.removeAttribute('hidden');
-  } else if (state === 'loading') {
-    els.loadingOverlay.removeAttribute('hidden');
-  } else if (state === 'error') {
-    els.errorCard.removeAttribute('hidden');
-    if (errorMsg != null) els.errorMessage.textContent = errorMsg;
-  } else if (state === 'ready') {
+  if (state === 'ready') {
     els.detailsSection.removeAttribute('hidden');
+  } else {
+    els.detailsSection.setAttribute('hidden', '');
+    if (state === 'error' && errorMsg) console.warn('PokéFinder:', errorMsg);
   }
 }
-
-/* ——— Retry ——— */
-els.retryBtn.addEventListener('click', () => { if (lastSearchedName) loadPokemon(lastSearchedName); });
 
 /* ——— Pokémon Data Loading ——— */
 async function loadPokemon(name) {
@@ -894,7 +879,7 @@ function setCachedData(key, data, ttl) {
 /* ——— Init ——— */
 async function init() {
   initTheme();
-  setUiState('idle');
+  // detailsSection já tem hidden no HTML; nada a fazer aqui
   els.searchSpinner.classList.add('visible');
   try {
     await loadNames();

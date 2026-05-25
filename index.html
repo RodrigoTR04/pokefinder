@@ -83,41 +83,6 @@
       </section>
 
       <div class="main-slot">
-        <!-- idle / welcome state -->
-        <div class="empty-state glass-card" id="emptyState" aria-label="Welcome">
-          <svg width="56" height="56" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2"/>
-            <line x1="1" y1="16" x2="31" y2="16" stroke="currentColor" stroke-width="2"/>
-            <circle cx="16" cy="16" r="5" fill="currentColor"/>
-            <circle cx="16" cy="16" r="3" fill="var(--bg-body)"/>
-          </svg>
-          <p>Search for a Pokémon to get started.</p>
-        </div>
-
-        <!-- loading state -->
-        <div class="loading-overlay" id="loadingOverlay" aria-live="polite" aria-label="Loading Pokémon data" hidden>
-          <div class="glass-card loading-card">
-            <div class="pokeball-spinner spinner" aria-hidden="true">
-              <div class="pb-top"></div>
-              <div class="pb-divider"></div>
-              <div class="pb-bottom"></div>
-              <div class="pb-button"></div>
-            </div>
-            <p>Loading...</p>
-          </div>
-        </div>
-
-        <!-- error state -->
-        <div class="error-card glass-card" id="errorCard" hidden role="alert">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
-            <line x1="12" y1="8" x2="12" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="12" cy="16" r="1" fill="currentColor"/>
-          </svg>
-          <p id="errorMessage"></p>
-          <button class="btn-retry" id="retryBtn">Try again</button>
-        </div>
-
         <!-- ready / detail state -->
         <section class="details-section" id="detailsSection" aria-label="Pokémon details" hidden>
         <div class="details-grid">
