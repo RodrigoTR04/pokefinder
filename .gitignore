@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 *.log
 scripts/.cache/
+# Raw per-pokemon JSON files (81MB) — not needed in repo; bundles are in data/pokedex-*.js
+data/pokemon/

@@ -1,13 +1,12 @@
 /* PokéFinder — app.js */
 
-const CACHE_KEY_NAMES = 'pokefinder:names:v2';
 const CACHE_KEY_THEME = 'pokefinder:theme';
+
+// TTL constants kept for any residual code references
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
-const MOVE_TTL = 30 * 24 * 60 * 60 * 1000;
 
 const SPRITE_BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 const ARTWORK_BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/';
-const API_BASE = 'https://pokeapi.co/api/v2';
 
 const TYPE_COLORS = {
   normal: '#A8A878', fire: '#F08030', water: '#6890F0', electric: '#F8D030',
@@ -90,7 +89,10 @@ const els = {
   tabStrip: document.getElementById('tabStrip'),
 };
 
+// allNames is populated from window.POKEDEX_INDEX on boot
 let allNames = [];
+// nameToId maps lowercase name -> id for fast lookup
+let nameToId = {};
 let currentSuggestions = [];
 let activeSuggestionIdx = -1;
 let debounceTimer = null;
@@ -116,80 +118,59 @@ els.themeToggle.addEventListener('click', () => {
   localStorage.setItem(CACHE_KEY_THEME, next);
 });
 
-/* ——— Local static data ——— */
-let localIndex = null; // loaded once if data/index.json exists
-let localIndexById = {}; // id → index entry
+/* ——— Bundled data loading ——— */
 
-async function tryLoadLocalIndex() {
-  try {
-    const res = await fetch('data/index.json');
-    if (!res.ok) return false;
-    localIndex = await res.json();
-    if (localIndex && Array.isArray(localIndex.pokemon)) {
-      localIndex.pokemon.forEach(p => { localIndexById[p.id] = p; });
-      console.log(`[pokefinder] local index loaded (${localIndex.count} pokémon, generated ${localIndex.generated_at})`);
-      return true;
+// Load all chunks in parallel by injecting script tags.
+// Returns a Promise that resolves when all chunks are loaded.
+function loadChunks() {
+  const manifest = window.POKEDEX_MANIFEST;
+  if (!manifest || !manifest.chunks || !manifest.chunks.length) {
+    console.warn('[pokefinder] POKEDEX_MANIFEST not available — chunks not loaded');
+    return Promise.resolve();
+  }
+
+  const base = (function detectBase() {
+    // Works for file://, http://, and GitHub Pages
+    const scripts = document.querySelectorAll('script[src]');
+    for (const s of scripts) {
+      if (s.src && s.src.includes('pokedex-manifest.js')) {
+        return s.src.replace('pokedex-manifest.js', '');
+      }
     }
-    return false;
-  } catch (_) {
-    return false;
-  }
+    // Fallback: derive from current document URL
+    const loc = window.location.href;
+    return loc.substring(0, loc.lastIndexOf('/') + 1) + 'data/';
+  })();
+
+  const promises = manifest.chunks.map(filename => {
+    return new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = base + filename;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error('Failed to load chunk: ' + filename));
+      document.head.appendChild(script);
+    });
+  });
+
+  return Promise.all(promises);
 }
 
-async function tryLoadLocalPokemon(idOrName) {
-  // Try by numeric id first, then by scanning localIndex for name
-  let id = null;
-  if (typeof idOrName === 'number') {
-    id = idOrName;
-  } else if (localIndex) {
-    const entry = localIndex.pokemon.find(p => p.name === idOrName);
-    if (entry) id = entry.id;
-  }
-  if (!id) return null;
-  try {
-    const res = await fetch(`data/pokemon/${id}.json`);
-    if (!res.ok) return null;
-    return await res.json();
-  } catch (_) {
-    return null;
-  }
-}
-
-/* ——— Name Cache ——— */
-async function loadNames() {
-  // Prefer local index if available
-  if (localIndex && Array.isArray(localIndex.pokemon) && localIndex.pokemon.length > 0) {
-    allNames = localIndex.pokemon.map(p => p.name);
-    console.log('[pokefinder] name list from local index');
+/* ——— Name list from POKEDEX_INDEX ——— */
+function loadNames() {
+  const index = window.POKEDEX_INDEX;
+  if (index && Array.isArray(index) && index.length > 0) {
+    allNames = index.map(p => p.name);
+    nameToId = {};
+    index.forEach(p => { nameToId[p.name] = p.id; });
+    console.log(`[pokefinder] name list from POKEDEX_INDEX (${allNames.length} entries)`);
     return;
   }
-
-  const raw = localStorage.getItem(CACHE_KEY_NAMES);
-  if (raw) {
-    try {
-      const { ts, names } = JSON.parse(raw);
-      if (Date.now() - ts < CACHE_TTL && Array.isArray(names) && names.length > 0) {
-        allNames = names;
-        return;
-      }
-    } catch (_) {}
-  }
-  try {
-    const res = await fetch(`${API_BASE}/pokemon?limit=1500`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    allNames = data.results.map(p => p.name);
-    localStorage.setItem(CACHE_KEY_NAMES, JSON.stringify({ ts: Date.now(), names: allNames }));
-  } catch (err) {
-    console.error('[pokefinder] failed to load name list:', err);
-    throw err;
-  }
+  throw new Error('POKEDEX_INDEX not available. Make sure pokedex-index.js is loaded before app.js.');
 }
 
 /* ——— Search & Suggestions ——— */
 function getIdFromName(name) {
-  const idx = allNames.indexOf(name);
-  return idx !== -1 ? idx + 1 : null;
+  return nameToId[name] || null;
 }
 
 function filterNames(query) {
@@ -313,7 +294,7 @@ function setUiState(state, errorMsg) {
 }
 
 /* ——— Pokémon Data Loading ——— */
-async function loadPokemon(name) {
+function loadPokemon(name) {
   const normalized = name.toLowerCase().trim();
   lastSearchedName = normalized;
   movesLoaded = false;
@@ -330,43 +311,22 @@ async function loadPokemon(name) {
   setUiState('loading');
   switchTab('overview');
 
-  try {
-    // ── Try local static data first ─────────────────────────────────────────
-    const localDoc = await tryLoadLocalPokemon(normalized);
-    if (localDoc) {
-      console.log(`[pokefinder] using local data for ${normalized}`);
-      renderFromLocalDoc(localDoc);
-      setUiState('ready');
-      els.detailsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      return;
-    }
-
-    // ── Fallback: live PokéAPI ───────────────────────────────────────────────
-    const pokeRes = await fetch(`${API_BASE}/pokemon/${normalized}`);
-    if (!pokeRes.ok) {
-      if (pokeRes.status === 404) throw new Error(`"${capitalize(normalized)}" not found. Check the spelling and try again.`);
-      throw new Error(`API error ${pokeRes.status} — please try again.`);
-    }
-    const poke = await pokeRes.json();
-
-    const [speciesRes, encountersRes] = await Promise.all([
-      fetch(`${API_BASE}/pokemon-species/${poke.species.name}`),
-      fetch(`${API_BASE}/pokemon/${poke.id}/encounters`),
-    ]);
-
-    const species = speciesRes.ok ? await speciesRes.json() : null;
-    const encounters = encountersRes.ok ? await encountersRes.json() : [];
-
-    currentPoke = poke;
-    currentSpecies = species;
-    currentEncounters = encounters;
-
-    renderDetails(poke, species, encounters);
-    setUiState('ready');
-    els.detailsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  } catch (err) {
-    setUiState('error', err.message || 'Something went wrong loading Pokémon data.');
+  // Resolve id from name
+  const id = nameToId[normalized];
+  if (!id) {
+    setUiState('error', `"${capitalize(normalized)}" not found. Check the spelling and try again.`);
+    return;
   }
+
+  const doc = window.POKEDEX && window.POKEDEX[id];
+  if (!doc) {
+    setUiState('error', `Data for "${capitalize(normalized)}" not loaded yet. The Pokédex may still be loading — try again in a moment.`);
+    return;
+  }
+
+  renderFromLocalDoc(doc);
+  setUiState('ready');
+  els.detailsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 /* ——— Conflict chip helper ——— */
@@ -496,8 +456,9 @@ function renderFromLocalDoc(doc) {
   renderEncounters(encounters);
   renderPokedexEntries(species);
 
-  // Moves tab from learnset (lazy — will load on tab switch)
+  // Moves tab from bundled learnset (lazy — will load on tab switch)
   poke._learnsetLocal = doc.learnset || [];
+  poke._moveMeta = doc.move_meta || {};
 }
 
 function renderAppearsInFromLocal(doc, encounters) {
@@ -816,63 +777,55 @@ function extractIdFromUrl(url) {
   return m ? parseInt(m[1], 10) : 0;
 }
 
+// Generation number -> representative version-group label for filter UI
+const GEN_LABEL = {
+  1: 'Gen I (RBY)', 2: 'Gen II (GSC)', 3: 'Gen III (RSE)',
+  4: 'Gen IV (DPPt)', 5: 'Gen V (BW)', 6: 'Gen VI (XY)',
+  7: 'Gen VII (SM)', 8: 'Gen VIII (SwSh)', 9: 'Gen IX (SV)',
+};
+
 /* ——— Moves Tab ——— */
-async function renderMovesTab(poke) {
+function renderMovesTab(poke) {
   movesLoaded = true;
   els.movesFilters.innerHTML = '';
-  els.movesContent.innerHTML = `<span style="color:var(--text-secondary);font-size:.9rem">Loading move details</span><span class="moves-spinner" aria-label="Loading"></span>`;
+  els.movesContent.innerHTML = '';
 
-  try {
-    const rawMoves = poke.moves;
-    const uniqueMoveNames = [...new Set(rawMoves.map(m => m.move.name))];
+  // Build rows from bundled learnset
+  const learnset = poke._learnsetLocal || [];
+  const moveMeta = poke._moveMeta || {};
 
-    const details = await Promise.all(uniqueMoveNames.map(name => fetchMoveDetail(name)));
-    const detailMap = {};
-    details.forEach(d => { if (d) detailMap[d.name] = d; });
-
-    const rows = [];
-    rawMoves.forEach(moveEntry => {
-      const moveName = moveEntry.move.name;
-      const detail = detailMap[moveName];
-      moveEntry.version_group_details.forEach(vgd => {
-        rows.push({
-          name: moveName,
-          displayName: capitalize(moveName),
-          type: detail?.type?.name || '—',
-          damageClass: detail?.damage_class?.name || 'status',
-          power: detail?.power ?? null,
-          accuracy: detail?.accuracy ?? null,
-          pp: detail?.pp ?? null,
-          method: vgd.move_learn_method.name,
-          level: vgd.level_learned_at,
-          versionGroup: vgd.version_group.name,
-        });
-      });
-    });
-
-    movesData = rows;
-    buildMovesUI(rows);
-  } catch (e) {
-    els.movesContent.innerHTML = `<p class="no-encounters">Could not load move details.</p>`;
+  if (!learnset.length) {
+    els.movesContent.innerHTML = '<p class="no-encounters">No move data available.</p>';
+    return;
   }
-}
 
-async function fetchMoveDetail(name) {
-  const cacheKey = `pokefinder:move:${name}`;
-  const cached = getCachedData(cacheKey, MOVE_TTL);
-  if (cached) return cached;
-  try {
-    const res = await fetch(`${API_BASE}/move/${name}`);
-    if (!res.ok) return null;
-    const data = await res.json();
-    const slim = { name: data.name, type: data.type, damage_class: data.damage_class, power: data.power, accuracy: data.accuracy, pp: data.pp };
-    setCachedData(cacheKey, slim, MOVE_TTL);
-    return slim;
-  } catch (_) { return null; }
+  const rows = learnset.map(r => {
+    const meta = moveMeta[r.move] || {};
+    return {
+      name: r.move,
+      displayName: capitalize(r.move),
+      type: meta.type || '—',
+      damageClass: meta.category || 'status',
+      power: meta.power ?? null,
+      accuracy: meta.accuracy ?? null,
+      pp: meta.pp ?? null,
+      method: r.method,
+      level: r.level ?? null,
+      gen: r.gen ?? null,
+      versionGroup: r.vg || (r.gen ? `gen-${r.gen}` : 'unknown'),
+    };
+  });
+
+  movesData = rows;
+  buildMovesUI(rows);
 }
 
 function buildMovesUI(rows) {
   const allVersionGroups = [...new Set(rows.map(r => r.versionGroup))].sort((a, b) => {
+    // gen-N virtual keys: sort numerically
+    const ga = a.match(/^gen-(\d+)$/), gb = b.match(/^gen-(\d+)$/);
+    if (ga && gb) return parseInt(ga[1]) - parseInt(gb[1]);
+    if (ga) return 1; if (gb) return -1;
     const ia = GAME_ORDER.indexOf(vgToGame(a));
     const ib = GAME_ORDER.indexOf(vgToGame(b));
     return ia - ib;
@@ -978,11 +931,17 @@ function methodLabel(method) {
 }
 
 function vgToGame(vg) {
+  // gen-N virtual version groups sort by N
+  const genMatch = vg.match(/^gen-(\d+)$/);
+  if (genMatch) return vg;
   const first = vg.split('-')[0];
   return first;
 }
 
 function vgDisplayName(vg) {
+  // gen-N virtual version groups from Showdown learnset
+  const genMatch = vg.match(/^gen-(\d+)$/);
+  if (genMatch) return GEN_LABEL[parseInt(genMatch[1])] || `Gen ${genMatch[1]}`;
   const parts = vg.split('-');
   return parts.map(p => GAME_DISPLAY_NAMES[p] || capitalize(p)).join('/');
 }
@@ -1095,23 +1054,6 @@ function cleanFlavorText(text) {
     .trim();
 }
 
-/* ——— localStorage cache ——— */
-function getCachedData(key, ttl) {
-  try {
-    const raw = localStorage.getItem(key);
-    if (!raw) return null;
-    const { ts, data } = JSON.parse(raw);
-    if (Date.now() - ts > ttl) { localStorage.removeItem(key); return null; }
-    return data;
-  } catch (_) { return null; }
-}
-
-function setCachedData(key, data, ttl) {
-  try {
-    localStorage.setItem(key, JSON.stringify({ ts: Date.now(), data }));
-  } catch (_) {}
-}
-
 /* ——— Suggestions container bootstrap ——— */
 // Ensure the suggestions list is a direct child of .search-container (position:relative)
 // and is styled for correct absolute positioning above other content.
@@ -1131,21 +1073,80 @@ function bootstrapSuggestionsContainer() {
   sl.style.overflowY = 'auto';
 }
 
+/* ——— localStorage helpers (used by residual evolution cache code) ——— */
+function getCachedData(key, ttl) {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const { ts, data } = JSON.parse(raw);
+    if (Date.now() - ts > ttl) { localStorage.removeItem(key); return null; }
+    return data;
+  } catch (_) { return null; }
+}
+
+function setCachedData(key, data) {
+  try { localStorage.setItem(key, JSON.stringify({ ts: Date.now(), data })); } catch (_) {}
+}
+
+/* ——— Loading banner ——— */
+let loadingBanner = null;
+
+function showLoadingBanner(msg) {
+  if (loadingBanner) { loadingBanner.textContent = msg; return; }
+  loadingBanner = document.createElement('div');
+  loadingBanner.id = 'pokedexLoadBanner';
+  loadingBanner.style.cssText = [
+    'position:fixed', 'bottom:16px', 'left:50%', 'transform:translateX(-50%)',
+    'background:var(--card-bg,#1e2535)', 'color:var(--text-primary,#e2e8f0)',
+    'border:1px solid var(--card-border,rgba(255,255,255,.08))',
+    'border-radius:8px', 'padding:8px 20px', 'font-size:.85rem',
+    'z-index:9999', 'box-shadow:0 4px 24px rgba(0,0,0,.4)',
+    'pointer-events:none',
+  ].join(';');
+  loadingBanner.textContent = msg;
+  document.body.appendChild(loadingBanner);
+}
+
+function hideLoadingBanner() {
+  if (loadingBanner) {
+    loadingBanner.remove();
+    loadingBanner = null;
+  }
+}
+
 /* ——— Init ——— */
 async function init() {
   initTheme();
   bootstrapSuggestionsContainer();
-  // detailsSection já tem hidden no HTML; nada a fazer aqui
+
+  // Register service worker for offline caching of sprites and app shell
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').catch(err => {
+      console.warn('[pokefinder] SW registration failed:', err);
+    });
+  }
+
+  // Load name list from bundled POKEDEX_INDEX (synchronous — already in memory)
+  try {
+    loadNames();
+  } catch (err) {
+    showSearchError('Could not load Pokemon list. Reload to retry.');
+    return;
+  }
+
+  // Load all data chunks in parallel, show progress banner
+  showLoadingBanner('Loading Pokedex...');
   els.searchSpinner.classList.add('visible');
   try {
-    // Try loading local static index first; falls back gracefully if absent
-    await tryLoadLocalIndex();
-    await loadNames();
+    await loadChunks();
+    const loaded = window.POKEDEX ? Object.keys(window.POKEDEX).length : 0;
+    console.log(`[pokefinder] POKEDEX ready: ${loaded} entries`);
   } catch (err) {
-    // Error already logged inside loadNames
-    showSearchError('Could not load Pokemon list. Reload to retry.');
+    console.warn('[pokefinder] chunk load error:', err);
+    showSearchError('Some data failed to load. The app may be partially offline.');
   } finally {
     els.searchSpinner.classList.remove('visible');
+    hideLoadingBanner();
   }
 }
 
@@ -1155,7 +1156,7 @@ function showSearchError(msg) {
   const err = document.createElement('p');
   err.id = 'searchLoadError';
   err.textContent = msg;
-  err.style.cssText = 'margin-top:8px;font-size:0.82rem;color:var(--error-text);text-align:center;';
+  err.style.cssText = 'margin-top:8px;font-size:0.82rem;color:var(--error-text,#f87171);text-align:center;';
   const container = els.suggestionsList.closest('.search-container') || els.suggestionsList.parentElement;
   if (container) container.appendChild(err);
 }

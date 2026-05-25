@@ -1,0 +1,1 @@
+window.POKEDEX_MANIFEST = {"chunks":["pokedex-chunk-0.js","pokedex-chunk-1.js","pokedex-chunk-2.js","pokedex-chunk-3.js","pokedex-chunk-4.js","pokedex-chunk-5.js"],"total":1025,"generated_at":"2026-05-25T10:09:29.787Z"};
