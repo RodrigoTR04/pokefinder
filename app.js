@@ -1,6 +1,6 @@
 /* PokéFinder — app.js */
 
-const CACHE_KEY_NAMES = 'pokefinder:names';
+const CACHE_KEY_NAMES = 'pokefinder:names:v2';
 const CACHE_KEY_THEME = 'pokefinder:theme';
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
 const MOVE_TTL = 30 * 24 * 60 * 60 * 1000;
@@ -116,13 +116,62 @@ els.themeToggle.addEventListener('click', () => {
   localStorage.setItem(CACHE_KEY_THEME, next);
 });
 
+/* ——— Local static data ——— */
+let localIndex = null; // loaded once if data/index.json exists
+let localIndexById = {}; // id → index entry
+
+async function tryLoadLocalIndex() {
+  try {
+    const res = await fetch('data/index.json');
+    if (!res.ok) return false;
+    localIndex = await res.json();
+    if (localIndex && Array.isArray(localIndex.pokemon)) {
+      localIndex.pokemon.forEach(p => { localIndexById[p.id] = p; });
+      console.log(`[pokefinder] local index loaded (${localIndex.count} pokémon, generated ${localIndex.generated_at})`);
+      return true;
+    }
+    return false;
+  } catch (_) {
+    return false;
+  }
+}
+
+async function tryLoadLocalPokemon(idOrName) {
+  // Try by numeric id first, then by scanning localIndex for name
+  let id = null;
+  if (typeof idOrName === 'number') {
+    id = idOrName;
+  } else if (localIndex) {
+    const entry = localIndex.pokemon.find(p => p.name === idOrName);
+    if (entry) id = entry.id;
+  }
+  if (!id) return null;
+  try {
+    const res = await fetch(`data/pokemon/${id}.json`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (_) {
+    return null;
+  }
+}
+
 /* ——— Name Cache ——— */
 async function loadNames() {
+  // Prefer local index if available
+  if (localIndex && Array.isArray(localIndex.pokemon) && localIndex.pokemon.length > 0) {
+    allNames = localIndex.pokemon.map(p => p.name);
+    console.log('[pokefinder] name list from local index');
+    return;
+  }
+
   const raw = localStorage.getItem(CACHE_KEY_NAMES);
   if (raw) {
     try {
       const { ts, names } = JSON.parse(raw);
-      if (Date.now() - ts < CACHE_TTL) { allNames = names; return; }
+      if (Date.now() - ts < CACHE_TTL && Array.isArray(names) && names.length > 0) {
+        allNames = names;
+        return;
+      }
     } catch (_) {}
   }
   try {
@@ -132,7 +181,7 @@ async function loadNames() {
     allNames = data.results.map(p => p.name);
     localStorage.setItem(CACHE_KEY_NAMES, JSON.stringify({ ts: Date.now(), names: allNames }));
   } catch (err) {
-    console.warn('PokéFinder: could not preload Pokémon list for autocomplete:', err.message);
+    console.error('[pokefinder] failed to load name list:', err);
     throw err;
   }
 }
@@ -146,6 +195,10 @@ function getIdFromName(name) {
 function filterNames(query) {
   const q = query.toLowerCase().trim();
   if (!q) return [];
+  if (allNames.length === 0) {
+    console.warn('[pokefinder] filterNames called but allNames is empty — name list may not have loaded');
+    return [];
+  }
   const starts = allNames.filter(n => n.startsWith(q));
   const contains = allNames.filter(n => !n.startsWith(q) && n.includes(q));
   return [...starts, ...contains].slice(0, 8);
@@ -278,6 +331,17 @@ async function loadPokemon(name) {
   switchTab('overview');
 
   try {
+    // ── Try local static data first ─────────────────────────────────────────
+    const localDoc = await tryLoadLocalPokemon(normalized);
+    if (localDoc) {
+      console.log(`[pokefinder] using local data for ${normalized}`);
+      renderFromLocalDoc(localDoc);
+      setUiState('ready');
+      els.detailsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+
+    // ── Fallback: live PokéAPI ───────────────────────────────────────────────
     const pokeRes = await fetch(`${API_BASE}/pokemon/${normalized}`);
     if (!pokeRes.ok) {
       if (pokeRes.status === 404) throw new Error(`"${capitalize(normalized)}" not found. Check the spelling and try again.`);
@@ -303,6 +367,178 @@ async function loadPokemon(name) {
   } catch (err) {
     setUiState('error', err.message || 'Something went wrong loading Pokémon data.');
   }
+}
+
+/* ——— Conflict chip helper ——— */
+function conflictChip(conflicts) {
+  if (!conflicts || !conflicts.length) return '';
+  const detail = conflicts.map(c => `${c.source}: ${JSON.stringify(c.value)}`).join(' | ');
+  return `<span class="conflict-chip" title="Sources disagree: ${detail.replace(/"/g, '&quot;')}">⚠ conflict</span>`;
+}
+
+/* ——— Render from local static doc ——— */
+function renderFromLocalDoc(doc) {
+  // Build poke-like object the existing renderers expect
+  const poke = {
+    id: doc.id,
+    name: doc.name,
+    height: Math.round((doc.height_m || 0) * 10),
+    weight: Math.round((doc.weight_kg || 0) * 10),
+    types: (doc.types || []).map(t => ({ type: { name: t } })),
+    abilities: (doc.abilities || []).map(a => ({ ability: { name: a.name }, is_hidden: a.is_hidden, slot: a.slot })),
+    stats: Object.entries(doc.stats || {}).map(([name, val]) => ({
+      stat: { name },
+      base_stat: typeof val === 'object' ? val.value : val,
+    })),
+    sprites: { other: { 'official-artwork': { front_default: doc.artwork_url } } },
+    moves: [], // handled separately below
+    game_indices: [],
+    _localDoc: doc, // carry along for extended rendering
+  };
+
+  const species = doc.species ? {
+    name: doc.name,
+    habitat: doc.species.habitat ? { name: doc.species.habitat } : null,
+    color: doc.species.color ? { name: doc.species.color } : null,
+    shape: doc.species.shape ? { name: doc.species.shape } : null,
+    generation: doc.species.generation ? { name: doc.species.generation } : null,
+    growth_rate: doc.species.growth_rate ? { name: doc.species.growth_rate } : null,
+    capture_rate: doc.species.capture_rate,
+    base_happiness: doc.species.base_happiness,
+    egg_groups: (doc.species.egg_groups || []).map(n => ({ name: n })),
+    hatch_counter: doc.species.hatch_counter,
+    gender_rate: doc.species.gender_rate,
+    pokedex_numbers: [],
+    flavor_text_entries: (doc.flavor_texts || []).map(ft => ({
+      language: { name: 'en' },
+      version: { name: ft.game },
+      flavor_text: ft.text,
+    })),
+    evolution_chain: doc.evolution?.chain ? { url: '__local__' } : null,
+    _evoChainLocal: doc.evolution?.chain || null,
+  } : null;
+
+  // Convert local locations to encounters format expected by renderEncounters
+  const encounters = [];
+  const byLocGame = {};
+  (doc.locations || []).forEach(loc => {
+    const key = `${loc.game}__${loc.location}`;
+    if (!byLocGame[key]) byLocGame[key] = { game: loc.game, location: loc.location, rarity: loc.rarity };
+  });
+  // Group by location area for renderEncounters
+  const locAreaMap = {};
+  (doc.locations || []).forEach(loc => {
+    const areaKey = loc.location;
+    if (!locAreaMap[areaKey]) locAreaMap[areaKey] = { location_area: { name: loc.location.replace(/ /g, '-').toLowerCase() }, version_details: [] };
+    let vd = locAreaMap[areaKey].version_details.find(v => v.version.name === loc.game);
+    if (!vd) {
+      vd = { version: { name: loc.game }, encounter_details: [{ method: { name: 'walk' }, min_level: 0, max_level: 0, chance: loc.rarity ? parseInt(loc.rarity) || 0 : 0 }] };
+      locAreaMap[areaKey].version_details.push(vd);
+    }
+  });
+  Object.values(locAreaMap).forEach(e => encounters.push(e));
+
+  currentPoke = poke;
+  currentSpecies = species;
+  currentEncounters = encounters;
+
+  // Render main details
+  const artwork = doc.artwork_url || `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${doc.id}.png`;
+  els.pokeArtwork.src = artwork;
+  els.pokeArtwork.alt = capitalize(poke.name);
+
+  // Name + type badges with optional conflict chips
+  els.pokeName.textContent = capitalize(poke.name);
+  els.pokeId.textContent = `#${String(poke.id).padStart(4, '0')}`;
+
+  let typesHTML = poke.types.map(t => {
+    const type = t.type.name;
+    const color = TYPE_COLORS[type] || '#888';
+    return `<span class="type-badge" style="background:${color}">${capitalize(type)}</span>`;
+  }).join('');
+  if (doc.types_conflicts) typesHTML += conflictChip(doc.types_conflicts);
+  els.typeBadges.innerHTML = typesHTML;
+
+  // Appears in from local locations
+  renderAppearsInFromLocal(doc, encounters);
+
+  // Height / weight with conflict chips
+  const heightVal = doc.height_m != null ? `${Number(doc.height_m).toFixed(1)} m` : '—';
+  const weightVal = doc.weight_kg != null ? `${Number(doc.weight_kg).toFixed(1)} kg` : '—';
+  els.pokeHeight.innerHTML = heightVal + (doc.height_conflicts ? conflictChip(doc.height_conflicts) : '');
+  els.pokeWeight.innerHTML = weightVal + (doc.weight_conflicts ? conflictChip(doc.weight_conflicts) : '');
+
+  els.abilitiesList.innerHTML = poke.abilities.map(a => {
+    const hidden = a.is_hidden ? '<span class="ability-hidden-badge">Hidden</span>' : '';
+    return `<li class="ability-item">${capitalize(a.ability.name)} ${hidden}</li>`;
+  }).join('');
+
+  // Stats with conflict chips
+  renderStatsFromLocal(doc.stats);
+  renderSpeciesInfo(species);
+
+  // Evolution — use local chain if present, else skip
+  if (doc.evolution?.chain) {
+    els.evoChainWrap.innerHTML = '';
+    const html = buildEvoChainHTML(doc.evolution.chain);
+    els.evoChainWrap.innerHTML = html;
+    els.evoChainWrap.querySelectorAll('.evo-card-item').forEach(card => {
+      card.addEventListener('click', () => loadPokemon(card.dataset.name));
+    });
+    if (doc.evolution.bulbapedia_condition) {
+      els.evoChainWrap.insertAdjacentHTML('beforeend',
+        `<p class="evo-condition-note" style="margin-top:8px;font-size:.82rem;color:var(--text-secondary)">Bulbapedia: ${doc.evolution.bulbapedia_condition}</p>`);
+    }
+  } else {
+    els.evoChainWrap.innerHTML = '<p class="no-encounters">No evolution data available.</p>';
+  }
+
+  renderEncounters(encounters);
+  renderPokedexEntries(species);
+
+  // Moves tab from learnset (lazy — will load on tab switch)
+  poke._learnsetLocal = doc.learnset || [];
+}
+
+function renderAppearsInFromLocal(doc, encounters) {
+  const wildGames = new Set((doc.locations || []).map(l => l.game));
+  const gameIndexGames = new Set();
+  const pokedexGames = new Set();
+
+  const badges = GAME_ORDER.map(game => {
+    const displayName = GAME_DISPLAY_NAMES[game] || capitalize(game);
+    if (game === 'legends-z-a') return `<span class="appears-badge gray" title="Data not yet available">${displayName}</span>`;
+    if (wildGames.has(game)) return `<span class="appears-badge green" title="Encounterable in the wild">${displayName}</span>`;
+    return `<span class="appears-badge gray" title="Not in this game">${displayName}</span>`;
+  }).join('');
+
+  els.appearsInSection.innerHTML = `<div class="appears-in-title">Appears in</div><div class="appears-in-grid">${badges}</div>`;
+}
+
+function renderStatsFromLocal(stats) {
+  if (!stats) { els.statsList.innerHTML = ''; return; }
+  const STAT_ORDER = ['hp', 'attack', 'defense', 'special-attack', 'special-defense', 'speed'];
+  const statEntries = STAT_ORDER.map(key => ({ name: key, val: stats[key] })).filter(s => s.val !== undefined);
+  els.statsList.innerHTML = statEntries.map(({ name, val }) => {
+    const hasConflict = typeof val === 'object' && val._conflicts;
+    const numVal = hasConflict ? val.value : (typeof val === 'object' && val.value !== undefined ? val.value : val);
+    const label = STAT_ABBR[name] || capitalize(name);
+    const pct = Math.min((numVal / 255) * 100, 100).toFixed(2);
+    const tier = numVal >= 100 ? 'tier-high' : numVal >= 50 ? 'tier-mid' : 'tier-low';
+    const chip = hasConflict ? conflictChip(val._conflicts) : '';
+    return `<div class="stat-row">
+      <span class="stat-label">${label}</span>
+      <div class="stat-bar-track"><div class="stat-bar-fill ${tier}" data-width="${pct}"></div></div>
+      <span class="stat-value">${numVal}${chip}</span>
+    </div>`;
+  }).join('');
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      els.statsList.querySelectorAll('.stat-bar-fill').forEach(bar => {
+        bar.style.width = bar.dataset.width + '%';
+      });
+    });
+  });
 }
 
 /* ——— Render ——— */
@@ -876,18 +1112,52 @@ function setCachedData(key, data, ttl) {
   } catch (_) {}
 }
 
+/* ——— Suggestions container bootstrap ——— */
+// Ensure the suggestions list is a direct child of .search-container (position:relative)
+// and is styled for correct absolute positioning above other content.
+function bootstrapSuggestionsContainer() {
+  const container = els.suggestionsList.closest('.search-container') || els.suggestionsList.parentElement;
+  if (container && getComputedStyle(container).position === 'static') {
+    container.style.position = 'relative';
+  }
+  // Apply positioning defensively in JS so it works even if CSS is partially missing
+  const sl = els.suggestionsList;
+  sl.style.position = 'absolute';
+  sl.style.top = 'calc(100% + 8px)';
+  sl.style.left = '0';
+  sl.style.right = '0';
+  sl.style.zIndex = '1000';
+  sl.style.maxHeight = '400px';
+  sl.style.overflowY = 'auto';
+}
+
 /* ——— Init ——— */
 async function init() {
   initTheme();
+  bootstrapSuggestionsContainer();
   // detailsSection já tem hidden no HTML; nada a fazer aqui
   els.searchSpinner.classList.add('visible');
   try {
+    // Try loading local static index first; falls back gracefully if absent
+    await tryLoadLocalIndex();
     await loadNames();
   } catch (err) {
-    // Warning already emitted inside loadNames; autocomplete just won't pre-populate
+    // Error already logged inside loadNames
+    showSearchError('Could not load Pokemon list. Reload to retry.');
   } finally {
     els.searchSpinner.classList.remove('visible');
   }
+}
+
+function showSearchError(msg) {
+  const existing = document.getElementById('searchLoadError');
+  if (existing) return;
+  const err = document.createElement('p');
+  err.id = 'searchLoadError';
+  err.textContent = msg;
+  err.style.cssText = 'margin-top:8px;font-size:0.82rem;color:var(--error-text);text-align:center;';
+  const container = els.suggestionsList.closest('.search-container') || els.suggestionsList.parentElement;
+  if (container) container.appendChild(err);
 }
 
 init();

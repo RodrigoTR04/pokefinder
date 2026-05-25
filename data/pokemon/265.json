@@ -1,0 +1,993 @@
+{
+  "id": 265,
+  "name": "wurmple",
+  "display_name": "wurmple",
+  "types": [
+    "bug"
+  ],
+  "height_m": 0.3,
+  "weight_kg": 3.6,
+  "stats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 35,
+    "special-attack": 20,
+    "special-defense": 30,
+    "speed": 20
+  },
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "run-away",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+  "species": {
+    "habitat": "forest",
+    "color": "red",
+    "shape": "armor",
+    "generation": "generation-iii",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "egg_groups": [
+      "bug"
+    ],
+    "hatch_counter": 15,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "ruby",
+      "location": "Routes , , and , Petalburg Woods",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sapphire",
+      "location": "Routes , , and , Petalburg Woods",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "emerald",
+      "location": "Routes , , and , Petalburg Woods",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "diamond",
+      "location": "Eterna Forest, Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pearl",
+      "location": "Eterna Forest, Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "platinum",
+      "location": "Routes and , Eterna Forest, Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "heartgold",
+      "location": "Routes , , , , , , , , , , and , Pallet Town, Viridian City, Pewter City, Fuchsia City (Headbutt trees), National Park (Bug-Catching Contest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "soulsilver",
+      "location": "Routes , , , , , , , , , , and , Pallet Town, Viridian City, Pewter City, Fuchsia City (Headbutt trees), National Park (Bug-Catching Contest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pal-park",
+      "location": "Forest",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white",
+      "location": "White Forest",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "x",
+      "location": "or",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "y",
+      "location": "or",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "omega-ruby",
+      "location": "Routes , , and , Petalburg Woods",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "alpha-sapphire",
+      "location": "Routes , , and , Petalburg Woods",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "brilliant-diamond",
+      "location": "Eterna Forest, Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees), Grand Underground - Grassland Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shining-pearl",
+      "location": "Eterna Forest, Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees), Grand Underground - Grassland Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "legends-arceus",
+      "location": "'''Obsidian Fieldlands:''' near Aspiration Hill, Floaro Gardens, Horseshoe Plains, The Heartwood, massive mass outbreaks",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pinball-r&s",
+      "location": "Hatch from",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "trozei",
+      "location": "Secret Storage 7, Secret Storage 16, Endless Level 12, Mr. Who's Den",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-red",
+      "location": "Joyous Tower (1F-2F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-blue",
+      "location": "Joyous Tower (1F-2F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ranger",
+      "location": "Olive Jungle",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-time",
+      "location": "Mystifying Forest (1F-13F), (1F-29F), Oran Forest (1F-4F), Midnight Forest (B1F-B21F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-darkness",
+      "location": "Mystifying Forest (1F-13F), (1F-29F), Oran Forest (1F-4F), Midnight Forest (B1F-B21F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-sky",
+      "location": "Mystifying Forest (1F-13F), (1F-29F), Oran Forest (1F-4F), Midnight Forest (B1F-B21F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-blast",
+      "location": "Forest: Challenger's Ground, Echo Valley",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-u",
+      "location": "Challenge Battle: Lord of the Bugs",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "battle-trozei",
+      "location": "Safari Jungle: Stage 1",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-world",
+      "location": "Ruby Volcano: Giant Redwood (All Areas)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "picross",
+      "location": "Area 13: Stage 04",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-rush",
+      "location": "Pinsir Sea, Celebi Sea, Rayquaza Sea, Celebi SeaFinal",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-dx",
+      "location": "Tiny Woods (2F-3F), Purity Forest (1F-3F), Fantasy Strait (20F-21F), Fainted Pokémon: Northwind Field'''C''', Northern Range'''C''', Desert Region'''C''', Waterfall Pond'''S'''",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "new-snap",
+      "location": "Florio Nature ParkDay, Secret Side PathDay",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shuffle",
+      "location": "Prasino Woods: Stage 567",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 7,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 6,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 5,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 4,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "electroweb",
+      "type": "electric",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroweb",
+      "type": "electric",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroweb",
+      "type": "electric",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonsting",
+      "type": "poison",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 7,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonsting",
+      "type": "poison",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 6,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonsting",
+      "type": "poison",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 5,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonsting",
+      "type": "poison",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonsting",
+      "type": "poison",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 4,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonsting",
+      "type": "poison",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 3,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 6,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 5,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 4,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 3,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 6,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 5,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 4,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 3,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "ruby",
+      "text": "Using the spikes on its rear end, WURMPLE peels the bark off trees and feeds on the sap that oozes out. This POKéMON’s feet are tipped with suction pads that allow it to cling to glass without slipping."
+    },
+    {
+      "game": "sapphire",
+      "text": "WURMPLE is targeted by SWELLOW as prey. This POKéMON will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes."
+    },
+    {
+      "game": "emerald",
+      "text": "It sticks to tree branches and eats leaves. The thread it spits from its mouth, which becomes gooey when it touches air, slows the movement of its foes."
+    },
+    {
+      "game": "firered",
+      "text": "It lives amidst tall grass and in forests. When attacked, it resists by pointing its venomous spikes at the foe."
+    },
+    {
+      "game": "leafgreen",
+      "text": "It lives amidst tall grass and in forests. When attacked, it resists by pointing its venomous spikes at the foe."
+    },
+    {
+      "game": "diamond",
+      "text": "It loves to eat leaves. If it is attacked by a STARLY, it will defend itself with its spiked rear."
+    },
+    {
+      "game": "pearl",
+      "text": "It spits a white silk that turns sticky when it contacts air. It is used to immobilize foes."
+    },
+    {
+      "game": "platinum",
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes."
+    },
+    {
+      "game": "heartgold",
+      "text": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear."
+    },
+    {
+      "game": "soulsilver",
+      "text": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear."
+    },
+    {
+      "game": "black",
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes."
+    },
+    {
+      "game": "white",
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes."
+    },
+    {
+      "game": "black-2",
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes."
+    },
+    {
+      "game": "white-2",
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes."
+    },
+    {
+      "game": "x",
+      "text": "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear."
+    },
+    {
+      "game": "y",
+      "text": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear."
+    },
+    {
+      "game": "omega-ruby",
+      "text": "Using the spikes on its rear end, Wurmple peels the bark off trees and feeds on the sap that oozes out. This Pokémon’s feet are tipped with suction pads that allow it to cling to glass without slipping."
+    },
+    {
+      "game": "alpha-sapphire",
+      "text": "Wurmple is targeted by Swellow as prey. This Pokémon will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes."
+    },
+    {
+      "game": "legends-arceus",
+      "text": "Likes sap and is abundant in the wild. Why it evolves into various different forms is unknown. One cannot tell from a Wurmple's appearance which form it will take when it evolves."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 7,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 10,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "beautifly",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/267/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "silcoon",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/266/"
+          }
+        },
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 7,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 10,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "dustox",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/269/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "cascoon",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/268/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "wurmple",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/265/"
+      }
+    },
+    "bulbapedia_condition": "= Wurmple evolves into either , which evolves into , or evolves into , which evolves into . <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 34,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T01:54:04.641Z"
+}

@@ -1,0 +1,723 @@
+{
+  "id": 852,
+  "name": "clobbopus",
+  "display_name": "clobbopus",
+  "types": [
+    "fighting"
+  ],
+  "height_m": 0.6,
+  "weight_kg": 4,
+  "stats": {
+    "hp": 50,
+    "attack": 68,
+    "defense": 60,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 32
+  },
+  "abilities": [
+    {
+      "name": "limber",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "technician",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/852.png",
+  "species": {
+    "habitat": null,
+    "color": "brown",
+    "shape": "tentacles",
+    "generation": "generation-viii",
+    "growth_rate": "medium-slow",
+    "capture_rate": 180,
+    "base_happiness": 50,
+    "egg_groups": [
+      "water1",
+      "humanshape"
+    ],
+    "hatch_counter": 25,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "sword",
+      "location": "Route 9 (Galar), North Lake Miloch, Dusty Bowl (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "Route 9 (Galar), North Lake Miloch, Dusty Bowl (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Courageous Cavern, Loop Lagoon",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "attract",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bind",
+      "type": "normal",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 10,
+      "source": "showdown"
+    },
+    {
+      "move": "bodyslam",
+      "type": "normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "brickbreak",
+      "type": "fighting",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "brickbreak",
+      "type": "fighting",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 20,
+      "source": "showdown"
+    },
+    {
+      "move": "brine",
+      "type": "water",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bulkup",
+      "type": "fighting",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bulkup",
+      "type": "fighting",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 25,
+      "source": "showdown"
+    },
+    {
+      "move": "circlethrow",
+      "type": "fighting",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "closecombat",
+      "type": "fighting",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "coaching",
+      "type": "fighting",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "detect",
+      "type": "fighting",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 8,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "dive",
+      "type": "water",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "feint",
+      "type": "normal",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "focusblast",
+      "type": "fighting",
+      "category": "special",
+      "power": 120,
+      "accuracy": 70,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icepunch",
+      "type": "ice",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "leer",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "liquidation",
+      "type": "water",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "megapunch",
+      "type": "normal",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "muddywater",
+      "type": "water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "mudshot",
+      "type": "ground",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "painsplit",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "payback",
+      "type": "dark",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "poweruppunch",
+      "type": "fighting",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "retaliate",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "revenge",
+      "type": "fighting",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "reversal",
+      "type": "fighting",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "reversal",
+      "type": "fighting",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 40,
+      "source": "showdown"
+    },
+    {
+      "move": "rocksmash",
+      "type": "fighting",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "round",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "seismictoss",
+      "type": "fighting",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "soak",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "submission",
+      "type": "fighting",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 80,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "suckerpunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "superpower",
+      "type": "fighting",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "superpower",
+      "type": "fighting",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "level-up",
+      "level": 45,
+      "source": "showdown"
+    },
+    {
+      "move": "taunt",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "taunt",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 35,
+      "source": "showdown"
+    },
+    {
+      "move": "waterfall",
+      "type": "water",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "workup",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "sword",
+      "text": "It’s very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
+    },
+    {
+      "game": "shield",
+      "text": "Its tentacles tear off easily, but it isn’t alarmed when that happens—it knows they’ll grow back. It’s about as smart as a three-year-old."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": {
+                "name": "taunt",
+                "url": "https://pokeapi.co/api/v2/move/269/"
+              },
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": null,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "grapploct",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/853/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "clobbopus",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/852/"
+      }
+    },
+    "bulbapedia_condition": "= Clobbopus evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 4,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:04:31.031Z"
+}

@@ -1,0 +1,789 @@
+{
+  "id": 932,
+  "name": "nacli",
+  "display_name": "nacli",
+  "types": [
+    "rock"
+  ],
+  "height_m": 0.4,
+  "weight_kg": 16,
+  "stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 75,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 25
+  },
+  "abilities": [
+    {
+      "name": "purifying-salt",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "clear-body",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/932.png",
+  "species": {
+    "habitat": null,
+    "color": "brown",
+    "shape": "ball",
+    "generation": "generation-ix",
+    "growth_rate": "medium-slow",
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "egg_groups": [
+      "mineral"
+    ],
+    "hatch_counter": 20,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "scarlet",
+      "location": "South Province: Area Two, Area Three, Area Four, Area Five, Area Six, , East Province: Area One, Area Two, Area Three, East Paldean Sea, West Province: Area One, Area Two, Area Three, Asado Desert, North Province: Area One, Area Two, Area Three, Casseroya Lake, Glaseado Mountain, Area Zero, Tera Raid Battles (Nacli|1★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "South Province: Area Two, Area Three, Area Four, Area Five, Area Six, , East Province: Area One, Area Two, Area Three, East Paldean Sea, West Province: Area One, Area Two, Area Three, Asado Desert, North Province: Area One, Area Two, Area Three, Casseroya Lake, Glaseado Mountain, Area Zero, Tera Raid Battles (Nacli|1★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose, Vert Sector 8 (Only one, during Side Mission 142: \"That's Some Nacli Coffee\")",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "masters-ex",
+      "location": "Trainer Lodge Friendship Level 100:",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "ancientpower",
+      "type": "rock",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bodyslam",
+      "type": "normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bulldoze",
+      "type": "ground",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "curse",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "curse",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dig",
+      "type": "ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "earthpower",
+      "type": "ground",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "earthquake",
+      "type": "ground",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "earthquake",
+      "type": "ground",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 40,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "fissure",
+      "type": "ground",
+      "category": "physical",
+      "power": null,
+      "accuracy": 30,
+      "pp": 5,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "flashcannon",
+      "type": "steel",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "harden",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "headbutt",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 16,
+      "source": "showdown"
+    },
+    {
+      "move": "heavyslam",
+      "type": "steel",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "heavyslam",
+      "type": "steel",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 35,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "irondefense",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "irondefense",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 20,
+      "source": "showdown"
+    },
+    {
+      "move": "ironhead",
+      "type": "steel",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "meteorbeam",
+      "type": "rock",
+      "category": "special",
+      "power": 120,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "mudshot",
+      "type": "ground",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "mudshot",
+      "type": "ground",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 7,
+      "source": "showdown"
+    },
+    {
+      "move": "powergem",
+      "type": "rock",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "powergem",
+      "type": "rock",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "raindance",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "recover",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "level-up",
+      "level": 25,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rockpolish",
+      "type": "rock",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 13,
+      "source": "showdown"
+    },
+    {
+      "move": "rockslide",
+      "type": "rock",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rockslide",
+      "type": "rock",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "rockthrow",
+      "type": "rock",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 90,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "sandstorm",
+      "type": "rock",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "smackdown",
+      "type": "rock",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "smackdown",
+      "type": "rock",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 10,
+      "source": "showdown"
+    },
+    {
+      "move": "stealthrock",
+      "type": "rock",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stealthrock",
+      "type": "rock",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 33,
+      "source": "showdown"
+    },
+    {
+      "move": "stompingtantrum",
+      "type": "ground",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stoneedge",
+      "type": "rock",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stoneedge",
+      "type": "rock",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 9,
+      "method": "level-up",
+      "level": 45,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sunnyday",
+      "type": "fire",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "zenheadbutt",
+      "type": "psychic",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 90,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "scarlet",
+      "text": "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt."
+    },
+    {
+      "game": "violet",
+      "text": "The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli’s body."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 24,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 38,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "garganacl",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/934/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "naclstack",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/933/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "nacli",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/932/"
+      }
+    },
+    "bulbapedia_condition": "= Nacli evolves into , which evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 4,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:05:58.562Z"
+}

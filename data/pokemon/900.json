@@ -1,0 +1,939 @@
+{
+  "id": 900,
+  "name": "kleavor",
+  "display_name": "kleavor",
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "height_m": 1.8,
+  "weight_kg": 89,
+  "stats": {
+    "hp": 70,
+    "attack": 135,
+    "defense": 95,
+    "special-attack": 45,
+    "special-defense": 70,
+    "speed": 85
+  },
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "sharpness",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/900.png",
+  "species": {
+    "habitat": null,
+    "color": "brown",
+    "shape": "bug-wings",
+    "generation": "generation-viii",
+    "growth_rate": "medium",
+    "capture_rate": 115,
+    "base_happiness": 50,
+    "egg_groups": [
+      "bug"
+    ],
+    "hatch_counter": 20,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "legends-arceus",
+      "location": "'''Obsidian Fieldlands:''' Massive Mass Outbreaks",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "scarlet-violet-dlc",
+      "location": "Canyon Biome, Tera Raid Battles (Kleavor|6★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "acrobatics",
+      "type": "flying",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "aerialace",
+      "type": "flying",
+      "category": "physical",
+      "power": 60,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "agility",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "agility",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 32,
+      "source": "showdown"
+    },
+    {
+      "move": "aircutter",
+      "type": "flying",
+      "category": "special",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 25,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "airslash",
+      "type": "flying",
+      "category": "special",
+      "power": 75,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "batonpass",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "brickbreak",
+      "type": "fighting",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbuzz",
+      "type": "bug",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "closecombat",
+      "type": "fighting",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleedge",
+      "type": "normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "doublehit",
+      "type": "normal",
+      "category": "physical",
+      "power": 35,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 20,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleteam",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 16,
+      "source": "showdown"
+    },
+    {
+      "move": "dualwingbeat",
+      "type": "flying",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "falseswipe",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 40,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "falseswipe",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 40,
+      "gen": 9,
+      "method": "level-up",
+      "level": 8,
+      "source": "showdown"
+    },
+    {
+      "move": "focusenergy",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 28,
+      "source": "showdown"
+    },
+    {
+      "move": "furycutter",
+      "type": "bug",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 95,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 4,
+      "source": "showdown"
+    },
+    {
+      "move": "gigaimpact",
+      "type": "normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hyperbeam",
+      "type": "normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "leer",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "lightscreen",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "lunge",
+      "type": "bug",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "pounce",
+      "type": "bug",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "quickattack",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "raindance",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "reversal",
+      "type": "fighting",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rockblast",
+      "type": "rock",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rockslide",
+      "type": "rock",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rockslide",
+      "type": "rock",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 36,
+      "source": "showdown"
+    },
+    {
+      "move": "rocktomb",
+      "type": "rock",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sandstorm",
+      "type": "rock",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "scaryface",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "skittersmack",
+      "type": "bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "slash",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 24,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "smackdown",
+      "type": "rock",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "smackdown",
+      "type": "rock",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 12,
+      "source": "showdown"
+    },
+    {
+      "move": "stealthrock",
+      "type": "rock",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stoneaxe",
+      "type": "rock",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 90,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 0,
+      "source": "showdown"
+    },
+    {
+      "move": "stoneedge",
+      "type": "rock",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "strugglebug",
+      "type": "bug",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sunnyday",
+      "type": "fire",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "swift",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "swordsdance",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "swordsdance",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 44,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwind",
+      "type": "flying",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thief",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "trailblaze",
+      "type": "grass",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "uturn",
+      "type": "bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "vacuumwave",
+      "type": "fighting",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "xscissor",
+      "type": "bug",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "xscissor",
+      "type": "bug",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 40,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "legends-arceus",
+      "text": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": {
+                "name": "metal-coat",
+                "url": "https://pokeapi.co/api/v2/item/210/"
+              },
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": null,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "trade",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/2/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "scizor",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/212/"
+          }
+        },
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": {
+                "name": "black-augurite",
+                "url": "https://pokeapi.co/api/v2/item/2230/"
+              },
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": null,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "use-item",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "kleavor",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/900/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "scyther",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/123/"
+      }
+    },
+    "bulbapedia_condition": "= Kleavor evolves from Scyther. It is one of Scythers final forms, the other being . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 3,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:05:24.811Z"
+}

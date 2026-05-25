@@ -1,0 +1,11 @@
+{
+  "name": "pokefinder",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "build:data:smoke": "node scripts/build-data.mjs --range=1-151"
+  },
+  "engines": { "node": ">=18" }
+}

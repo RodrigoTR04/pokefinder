@@ -1,0 +1,909 @@
+{
+  "id": 945,
+  "name": "grafaiai",
+  "display_name": "grafaiai",
+  "types": [
+    "poison",
+    "normal"
+  ],
+  "height_m": 0.7,
+  "weight_kg": 27.2,
+  "stats": {
+    "hp": 63,
+    "attack": 95,
+    "defense": 65,
+    "special-attack": 80,
+    "special-defense": 72,
+    "speed": 110
+  },
+  "abilities": [
+    {
+      "name": "unburden",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "poison-touch",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "prankster",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/945.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/945.png",
+  "species": {
+    "habitat": null,
+    "color": "gray",
+    "shape": "upright",
+    "generation": "generation-ix",
+    "growth_rate": "medium-slow",
+    "capture_rate": 90,
+    "base_happiness": 50,
+    "egg_groups": [
+      "ground"
+    ],
+    "hatch_counter": 20,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "scarlet",
+      "location": "East Province: Tagtree Thicket, North Province: Area Two, Casseroya Lake, East Province: Tagtree Thicket ( Type), Tera Raid Battles (Grafaiai|4★, Grafaiai|6★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "East Province: Tagtree Thicket, North Province: Area Two, Casseroya Lake, East Province: Tagtree Thicket ( Type), Tera Raid Battles (Grafaiai|4★, Grafaiai|6★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "acidspray",
+      "type": "poison",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "acidspray",
+      "type": "poison",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "acrobatics",
+      "type": "flying",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "batonpass",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dig",
+      "type": "ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "doodle",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 0,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleedge",
+      "type": "normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "encore",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endeavor",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "flatter",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 18,
+      "source": "showdown"
+    },
+    {
+      "move": "fling",
+      "type": "dark",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "foulplay",
+      "type": "dark",
+      "category": "physical",
+      "power": 95,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "furyswipes",
+      "type": "normal",
+      "category": "physical",
+      "power": 18,
+      "accuracy": 80,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 8,
+      "source": "showdown"
+    },
+    {
+      "move": "gigaimpact",
+      "type": "normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "gunkshot",
+      "type": "poison",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "gunkshot",
+      "type": "poison",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 9,
+      "method": "level-up",
+      "level": 51,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "knockoff",
+      "type": "dark",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "knockoff",
+      "type": "dark",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 45,
+      "source": "showdown"
+    },
+    {
+      "move": "leer",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "lowkick",
+      "type": "fighting",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "lowsweep",
+      "type": "fighting",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "metronome",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "mudshot",
+      "type": "ground",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "mudslap",
+      "type": "ground",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nastyplot",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonfang",
+      "type": "poison",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 14,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonjab",
+      "type": "poison",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "poisonjab",
+      "type": "poison",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 33,
+      "source": "showdown"
+    },
+    {
+      "move": "poisontail",
+      "type": "poison",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "pounce",
+      "type": "bug",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "psychup",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "raindance",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "scaryface",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "scratch",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "shadowclaw",
+      "type": "ghost",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "skittersmack",
+      "type": "bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "slash",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 21,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sludgebomb",
+      "type": "poison",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sludgewave",
+      "type": "poison",
+      "category": "special",
+      "power": 95,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 40,
+      "source": "showdown"
+    },
+    {
+      "move": "sunnyday",
+      "type": "fire",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "superfang",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "switcheroo",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 11,
+      "source": "showdown"
+    },
+    {
+      "move": "swordsdance",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "taunt",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "taunt",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 37,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thief",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "throatchop",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "toxic",
+      "type": "poison",
+      "category": "status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "trailblaze",
+      "type": "grass",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "uturn",
+      "type": "bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "uturn",
+      "type": "bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 25,
+      "source": "showdown"
+    },
+    {
+      "move": "venoshock",
+      "type": "poison",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "xscissor",
+      "type": "bug",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "scarlet",
+      "text": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests."
+    },
+    {
+      "game": "violet",
+      "text": "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 28,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "grafaiai",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/945/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "shroodle",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/944/"
+      }
+    },
+    "bulbapedia_condition": "= Grafaiai evolves from . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 3,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:06:12.099Z"
+}

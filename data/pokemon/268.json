@@ -1,0 +1,763 @@
+{
+  "id": 268,
+  "name": "cascoon",
+  "display_name": "cascoon",
+  "types": [
+    "bug"
+  ],
+  "height_m": 0.7,
+  "weight_kg": 11.5,
+  "stats": {
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 15
+  },
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+  "species": {
+    "habitat": "forest",
+    "color": "purple",
+    "shape": "ball",
+    "generation": "generation-iii",
+    "growth_rate": "medium",
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "egg_groups": [
+      "bug"
+    ],
+    "hatch_counter": 15,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "ruby",
+      "location": "Petalburg Woods",
+      "rarity": null,
+      "method": "walk",
+      "levels": "5-5",
+      "source": "bulbapedia",
+      "chance": 10
+    },
+    {
+      "game": "sapphire",
+      "location": "Petalburg Woods",
+      "rarity": null,
+      "method": "walk",
+      "levels": "5-5",
+      "source": "bulbapedia",
+      "chance": 10
+    },
+    {
+      "game": "emerald",
+      "location": "Petalburg Woods",
+      "rarity": null,
+      "method": "walk",
+      "levels": "5-5",
+      "source": "bulbapedia",
+      "chance": 10
+    },
+    {
+      "game": "diamond",
+      "location": "Evolve",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pearl",
+      "location": "Eterna Forest, Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "platinum",
+      "location": "Route 205 (Sinnoh), Eterna Forest",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "heartgold",
+      "location": "National Park (Bug-Catching Contest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "soulsilver",
+      "location": "National Park (Bug-Catching Contest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pal-park",
+      "location": "Forest",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white",
+      "location": "Evolve",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "x",
+      "location": "Friend Safari (Poison)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "y",
+      "location": "Friend Safari (Poison)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "omega-ruby",
+      "location": "Petalburg Woods",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "alpha-sapphire",
+      "location": "Petalburg Woods",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "brilliant-diamond",
+      "location": "Evolve",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shining-pearl",
+      "location": "Eterna Forest, Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees), Grand Underground - Grassland Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "legends-arceus",
+      "location": "'''Obsidian Fieldlands:''' Floaro Gardens, Horseshoe Plains, The Heartwood, massive mass outbreaks",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pinball-r&s",
+      "location": "Forest (Ruby Field, Sapphire Field)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "trozei",
+      "location": "Secret Storage 11, Endless Level 10, Forever Level 10, Mr. Who's Den",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-red",
+      "location": "Sinister Woods (4F-6F), Murky Cave (1F-2F, 5F, 7F-9F, 11F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-blue",
+      "location": "Sinister Woods (4F-6F), Murky Cave (1F-2F, 5F, 7F-9F, 11F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-time",
+      "location": "Mt. Horn (2F-3F, 6F-7F, 9F-10F, 12F-14F), (B1F-B29F), Lush Prairie (1F-5F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-darkness",
+      "location": "Mt. Horn (2F-3F, 6F-7F, 9F-10F, 12F-14F), (B1F-B29F), Lush Prairie (1F-5F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-sky",
+      "location": "Mt. Horn (2F-3F, 6F-7F, 9F-10F, 12F-14F), (B1F-B29F), Lush Prairie (1F-5F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-blast",
+      "location": "Forest: Challenger's Ground",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-u",
+      "location": "Challenge Battle: Lord of the Bugs",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "battle-trozei",
+      "location": "Safari Jungle: Stage 1",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-world",
+      "location": "Distortion Land: Gracious Woodlands (All Areas)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-rush",
+      "location": "Celebi Sea, Rayquaza Sea, Celebi SeaFinal",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-dx",
+      "location": "Sinister Woods (4F-6F), Fantasy Strait (20F-21F), Fainted Pokémon: Desert Region",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shuffle",
+      "location": "Prasino Woods: Stage 581",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroweb",
+      "type": "electric",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroweb",
+      "type": "electric",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroweb",
+      "type": "electric",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "harden",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "harden",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 6,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "harden",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 5,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "harden",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 4,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "harden",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 3,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "irondefense",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "irondefense",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "irondefense",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "irondefense",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "ruby",
+      "text": "CASCOON makes its protective cocoon by wrapping its body entirely with a fine silk from its mouth. Once the silk goes around its body, it hardens. This POKéMON prepares for its evolution inside the cocoon."
+    },
+    {
+      "game": "sapphire",
+      "text": "If it is attacked, CASCOON remains motionless however badly it may be hurt. It does so because if it were to move, its body would be weak upon evolution. This POKéMON will also not forget the pain it endured."
+    },
+    {
+      "game": "emerald",
+      "text": "To avoid detection by its enemies, it hides motionlessly beneath large leaves and in the gaps of branches. It also attaches dead leaves to its body for camouflage."
+    },
+    {
+      "game": "firered",
+      "text": "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near."
+    },
+    {
+      "game": "leafgreen",
+      "text": "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near."
+    },
+    {
+      "game": "diamond",
+      "text": "It is hot inside its cocoon. All the cells in its body create the energy for it to evolve."
+    },
+    {
+      "game": "pearl",
+      "text": "Encased within its tough cocoon, it endures attacks. It never forgets the appearance of its foes."
+    },
+    {
+      "game": "platinum",
+      "text": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
+    },
+    {
+      "game": "heartgold",
+      "text": "It endures attacks with patience, because the more pain before evolution, the sturdier it becomes."
+    },
+    {
+      "game": "soulsilver",
+      "text": "It endures attacks with patience, because the more pain before evolution, the sturdier it becomes."
+    },
+    {
+      "game": "black",
+      "text": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
+    },
+    {
+      "game": "white",
+      "text": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
+    },
+    {
+      "game": "black-2",
+      "text": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
+    },
+    {
+      "game": "white-2",
+      "text": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
+    },
+    {
+      "game": "x",
+      "text": "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near."
+    },
+    {
+      "game": "y",
+      "text": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
+    },
+    {
+      "game": "omega-ruby",
+      "text": "Cascoon makes its protective cocoon by wrapping its body entirely with a fine silk from its mouth. Once the silk goes around its body, it hardens. This Pokémon prepares for its evolution inside the cocoon."
+    },
+    {
+      "game": "alpha-sapphire",
+      "text": "If it is attacked, Cascoon remains motionless however badly it may be hurt. It does so because if it were to move, its body would be weak upon evolution. This Pokémon will also not forget the pain it endured."
+    },
+    {
+      "game": "legends-arceus",
+      "text": "The silk coating its body is thin but sufficiently strong. Cascoon's silk has a luster and texture superior to that of Silcoon's, and clothes made using Cascoon silk are regarded as top-notch."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 7,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 10,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "beautifly",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/267/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "silcoon",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/266/"
+          }
+        },
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 7,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 10,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "dustox",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/269/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "cascoon",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/268/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "wurmple",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/265/"
+      }
+    },
+    "bulbapedia_condition": "= Cascoon evolves from  and evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 31,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T01:54:07.632Z"
+}

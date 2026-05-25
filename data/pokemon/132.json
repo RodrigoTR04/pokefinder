@@ -1,0 +1,1003 @@
+{
+  "id": 132,
+  "name": "ditto",
+  "display_name": "ditto",
+  "types": [
+    "normal"
+  ],
+  "height_m": 0.3,
+  "weight_kg": 4,
+  "stats": {
+    "hp": 48,
+    "attack": 48,
+    "defense": 48,
+    "special-attack": 48,
+    "special-defense": 48,
+    "speed": 48
+  },
+  "abilities": [
+    {
+      "name": "limber",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "imposter",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+  "species": {
+    "habitat": "urban",
+    "color": "purple",
+    "shape": "ball",
+    "generation": "generation-i",
+    "growth_rate": "medium",
+    "capture_rate": 35,
+    "base_happiness": 70,
+    "egg_groups": [
+      "ditto"
+    ],
+    "hatch_counter": 20,
+    "gender_rate": -1,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "red",
+      "location": "Routes , , , and , Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "blue",
+      "location": "Routes , , , and , Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "blue",
+      "location": "Routes , , , and , Rock Tunnel, Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "yellow",
+      "location": "and Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "gold",
+      "location": "Routes and",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "silver",
+      "location": "Routes and",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "crystal",
+      "location": "Routes and",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "emerald",
+      "location": "Desert Underpass",
+      "rarity": null,
+      "method": "walk",
+      "levels": "38-38",
+      "source": "bulbapedia",
+      "chance": 20
+    },
+    {
+      "game": "firered",
+      "location": "Routes , , and , , Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "leafgreen",
+      "location": "Routes , , and , , Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "diamond",
+      "location": "Route 218 (Sinnoh) (Poké Radar)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pearl",
+      "location": "Route 218 (Sinnoh) (Poké Radar)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "platinum",
+      "location": "Trophy Garden",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "heartgold",
+      "location": "Routes , , and , Cerulean Cave, Safari Zone (Johto) (tall grass in Wetland, default, and with 15 Waterside points), Route 47 (Johto) (Swarm)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "soulsilver",
+      "location": "Routes , , and , Cerulean Cave, Safari Zone (Johto) (tall grass in Wetland, default, and with 15 Waterside points), Route 47 (Johto) (Swarm)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pal-park",
+      "location": "Field",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "black",
+      "location": "Giant Chasm (Crater Forest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white",
+      "location": "Giant Chasm (Crater Forest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "black-2",
+      "location": "Giant Chasm (Crater Forest, Hidden Grotto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white-2",
+      "location": "Giant Chasm (Crater Forest, Hidden Grotto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "x",
+      "location": "Pokémon Village, Friend Safari (Normal)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "y",
+      "location": "Pokémon Village, Friend Safari (Normal)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "omega-ruby",
+      "location": "Mirage Cave (north of Route 132), Mirage Island (south of Route 132)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "alpha-sapphire",
+      "location": "Mirage Cave (north of Route 132), Mirage Island (south of Route 132)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sun",
+      "location": "Mount Hokulani",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "moon",
+      "location": "Mount Hokulani",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ultra-sun",
+      "location": "Mount Hokulani, Route 9 (Alola) (One), Konikoni City (Four)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ultra-moon",
+      "location": "Mount Hokulani, Route 9 (Alola) (One), Konikoni City (Four)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "lets-go-pikachu",
+      "location": "and Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "lets-go-eevee",
+      "location": "and Cerulean Cave",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword",
+      "location": "Lake of Outrage, Stony Wilderness (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "Lake of Outrage, Stony Wilderness (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Workout Sea, Workout Sea (Wanderer), Max Lair (Dynamax Adventure)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "brilliant-diamond",
+      "location": "Route 218 (Sinnoh) (Poké Radar), Grand Underground - Dazzling Cave, Stargleam Cavern (After obtaining the National Pokédex)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shining-pearl",
+      "location": "Route 218 (Sinnoh) (Poké Radar), Grand Underground - Dazzling Cave, Stargleam Cavern (After obtaining the National Pokédex)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "scarlet",
+      "location": "West Province: Area Two, Area Three (May disguise as other Pokémon), Tera Raid Battles (Ditto|3★, Ditto|4★, Ditto|5★, Ditto|6★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "West Province: Area Two, Area Three (May disguise as other Pokémon), Tera Raid Battles (Ditto|3★, Ditto|4★, Ditto|5★, Ditto|6★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pinball",
+      "location": "Red and Blue Field: Indigo Plateau",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "channel",
+      "location": "Bus Stop",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "trozei",
+      "location": "Everywhere",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-red",
+      "location": "Frosty Forest (4F-9F), Fiery Field (10F, 20F), Buried Relic (16F-34F), Wish Cave (53F-64F), Joyous Tower (53F-64F), Oddity Cave (B1-B15)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-blue",
+      "location": "Frosty Forest (4F-9F), Fiery Field (10F, 20F), Buried Relic (16F-34F), Wish Cave (53F-64F), Joyous Tower (53F-64F), Oddity Cave (B1-B15)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-time",
+      "location": "Sky Stairway (1F-49F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-darkness",
+      "location": "Sky Stairway (1F-49F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-sky",
+      "location": "Sky Stairway (1F-49F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble",
+      "location": "Silent Forest, Windy Prairie, , Fiery Furnace, Bright Beach, Eternal Tower (All Normal Mode S)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ranger-gs",
+      "location": "Sky Fortress, Rand's House",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-blast",
+      "location": "Cave: World Axle - B2F",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-u",
+      "location": "Variety Battle: I Dunno, Audino",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "battle-trozei",
+      "location": "Sky-High Ruins: Stage 6",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-world",
+      "location": "Legend Terrain: Meteorite Parkland (All Areas)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "picross",
+      "location": "Area 08: Stage 01",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-rush",
+      "location": "Bulbasaur Sea, Charizard SeaFinal",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-dx",
+      "location": "Frosty Forest (4F-7F, 12F-13F), Fiery Field (2F-20F), Wish Cave (53F-64F), Unown Relic (1F-10F), Joyous Tower (52F-59F), Purity Forest (1F-99F), Mystery House: Waterfall Pond, Strong Foe: Buried Relic (6F-14F, 16F-24F, 26F-34F, 36F-37F, 40F-98F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sleep",
+      "location": "Greengrass Isle (from Great 5), Cyan Beach (from Great 2), Taupe Hollow, Greengrass IsleExpert (from Great 1), Snowdrop Tundra (from Basic 5), Lapis Lakeside (from Basic 4), Old Gold Power Plant (from Basic 3), Amber Canyon (from Basic 2)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pokopia",
+      "location": "Withered Wasteland (automatically; Player character)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shuffle",
+      "location": "Prasino Woods: Stage 574, Event: ''Ditto Appears''",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "café-remix",
+      "location": "Ditto Points Event ( Regular and Pretend Eevee), One Minute Cooking with Ditto Event ( Pretend Pikachu)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 13",
+      "method": "walk",
+      "min_level": 25,
+      "max_level": 25,
+      "chance": 5,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 13",
+      "method": "walk",
+      "min_level": 25,
+      "max_level": 25,
+      "chance": 5,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 14",
+      "method": "walk",
+      "min_level": 23,
+      "max_level": 23,
+      "chance": 15,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 14",
+      "method": "walk",
+      "min_level": 23,
+      "max_level": 23,
+      "chance": 15,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 15",
+      "method": "walk",
+      "min_level": 26,
+      "max_level": 26,
+      "chance": 20,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 15",
+      "method": "walk",
+      "min_level": 26,
+      "max_level": 26,
+      "chance": 20,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave 1f",
+      "method": "walk",
+      "min_level": 53,
+      "max_level": 53,
+      "chance": 1,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave 1f",
+      "method": "walk",
+      "min_level": 53,
+      "max_level": 53,
+      "chance": 1,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave 2f",
+      "method": "walk",
+      "min_level": 55,
+      "max_level": 55,
+      "chance": 4,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave 2f",
+      "method": "walk",
+      "min_level": 60,
+      "max_level": 60,
+      "chance": 1,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave 2f",
+      "method": "walk",
+      "min_level": 55,
+      "max_level": 55,
+      "chance": 4,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave 2f",
+      "method": "walk",
+      "min_level": 60,
+      "max_level": 60,
+      "chance": 1,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave b1f",
+      "method": "walk",
+      "min_level": 65,
+      "max_level": 65,
+      "chance": 5,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave b1f",
+      "method": "walk",
+      "min_level": 63,
+      "max_level": 63,
+      "chance": 4,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave b1f",
+      "method": "walk",
+      "min_level": 67,
+      "max_level": 67,
+      "chance": 1,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave b1f",
+      "method": "walk",
+      "min_level": 65,
+      "max_level": 65,
+      "chance": 5,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave b1f",
+      "method": "walk",
+      "min_level": 63,
+      "max_level": 63,
+      "chance": 4,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave b1f",
+      "method": "walk",
+      "min_level": 67,
+      "max_level": 67,
+      "chance": 1,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 23",
+      "method": "walk",
+      "min_level": 33,
+      "max_level": 33,
+      "chance": 20,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 23",
+      "method": "walk",
+      "min_level": 38,
+      "max_level": 38,
+      "chance": 10,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 23",
+      "method": "walk",
+      "min_level": 43,
+      "max_level": 43,
+      "chance": 5,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 23",
+      "method": "walk",
+      "min_level": 33,
+      "max_level": 33,
+      "chance": 20,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 23",
+      "method": "walk",
+      "min_level": 38,
+      "max_level": 38,
+      "chance": 10,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 23",
+      "method": "walk",
+      "min_level": 43,
+      "max_level": 43,
+      "chance": 5,
+      "source": "pokeapi"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "V",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 7,
+      "method": "V",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 7,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 6,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 5,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 4,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "transform",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 3,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "red",
+      "text": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy."
+    },
+    {
+      "game": "blue",
+      "text": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy."
+    },
+    {
+      "game": "yellow",
+      "text": "When it spots an enemy, its body transfigures into an almost perfect copy of its oppo­ nent."
+    },
+    {
+      "game": "gold",
+      "text": "It can transform into anything. When it sleeps, it changes into a stone to avoid being attacked."
+    },
+    {
+      "game": "silver",
+      "text": "Its transformation ability is per­ fect. However, if made to laugh, it can't maintain its disguise."
+    },
+    {
+      "game": "crystal",
+      "text": "When it encount­ ers another DITTO, it will move faster than normal to duplicate that opponent exactly."
+    },
+    {
+      "game": "ruby",
+      "text": "DITTO rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this POKéMON manages to get details wrong."
+    },
+    {
+      "game": "sapphire",
+      "text": "DITTO rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this POKéMON manages to get details wrong."
+    },
+    {
+      "game": "emerald",
+      "text": "A DITTO rearranges its cell structure to transform itself. However, if it tries to change based on its memory, it will get details wrong."
+    },
+    {
+      "game": "firered",
+      "text": "It can freely recombine its own cellular structure to transform into other life- forms."
+    },
+    {
+      "game": "leafgreen",
+      "text": "Capable of copying an opponent’s genetic code to instantly transform itself into a duplicate of the enemy."
+    },
+    {
+      "game": "diamond",
+      "text": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+    },
+    {
+      "game": "pearl",
+      "text": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+    },
+    {
+      "game": "platinum",
+      "text": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+    },
+    {
+      "game": "heartgold",
+      "text": "It can transform into anything. When it sleeps, it changes into a stone to avoid being attacked."
+    },
+    {
+      "game": "soulsilver",
+      "text": "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise."
+    },
+    {
+      "game": "black",
+      "text": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+    },
+    {
+      "game": "white",
+      "text": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+    },
+    {
+      "game": "black-2",
+      "text": "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes."
+    },
+    {
+      "game": "white-2",
+      "text": "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes."
+    },
+    {
+      "game": "x",
+      "text": "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees."
+    },
+    {
+      "game": "y",
+      "text": "It can freely recombine its own cellular structure to transform into other life-forms."
+    },
+    {
+      "game": "omega-ruby",
+      "text": "Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong."
+    },
+    {
+      "game": "alpha-sapphire",
+      "text": "Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong."
+    },
+    {
+      "game": "sun",
+      "text": "It can reorganize its cells to make itself into a duplicate of anything it sees. The quality of the duplicate depends on the individual."
+    },
+    {
+      "game": "moon",
+      "text": "With its astonishing capacity for metamorphosis, it can get along with anything. It does not get along well with its fellow Ditto."
+    },
+    {
+      "game": "ultra-sun",
+      "text": "While it can transform into anything, each Ditto apparently has its own strengths and weaknesses when it comes to transformations."
+    },
+    {
+      "game": "ultra-moon",
+      "text": "It transforms into whatever it sees. If the thing it’s transforming into isn’t right in front of it, Ditto relies on its memory—so sometimes it fails."
+    },
+    {
+      "game": "lets-go-pikachu",
+      "text": "When it spots an enemy, its body transfigures into an almost-perfect copy of its opponent."
+    },
+    {
+      "game": "lets-go-eevee",
+      "text": "When it spots an enemy, its body transfigures into an almost-perfect copy of its opponent."
+    },
+    {
+      "game": "sword",
+      "text": "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes."
+    },
+    {
+      "game": "shield",
+      "text": "When it encounters another Ditto, it will move faster than normal to duplicate that opponent exactly."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [],
+      "is_baby": false,
+      "species": {
+        "name": "ditto",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/132/"
+      }
+    },
+    "bulbapedia_condition": null
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 58,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T01:52:01.725Z"
+}

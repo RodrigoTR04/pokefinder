@@ -1,0 +1,659 @@
+{
+  "id": 835,
+  "name": "yamper",
+  "display_name": "yamper",
+  "types": [
+    "electric"
+  ],
+  "height_m": 0.3,
+  "weight_kg": 13.5,
+  "stats": {
+    "hp": 59,
+    "attack": 45,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 26
+  },
+  "abilities": [
+    {
+      "name": "ball-fetch",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "rattled",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/835.png",
+  "species": {
+    "habitat": null,
+    "color": "yellow",
+    "shape": "quadruped",
+    "generation": "generation-viii",
+    "growth_rate": "fast",
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "egg_groups": [
+      "ground"
+    ],
+    "hatch_counter": 20,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "sword",
+      "location": "Routes and , Giant's Mirror, Motostoke Riverbank, Stony Wilderness, Motostoke Riverbank, Lake of Outrage, Giant's Mirror (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "Routes and , Giant's Mirror, Motostoke Riverbank, Stony Wilderness, Motostoke Riverbank, Lake of Outrage, Giant's Mirror (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Ballimere Lake",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "masters-ex",
+      "location": "Sync pair scout:",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "attract",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bite",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 8,
+      "method": "level-up",
+      "level": 10,
+      "source": "showdown"
+    },
+    {
+      "move": "charge",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 35,
+      "source": "showdown"
+    },
+    {
+      "move": "charm",
+      "type": "fairy",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "charm",
+      "type": "fairy",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 26,
+      "source": "showdown"
+    },
+    {
+      "move": "crunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "crunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "dig",
+      "type": "ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "discharge",
+      "type": "electric",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleedge",
+      "type": "normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroball",
+      "type": "electric",
+      "category": "special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "firefang",
+      "type": "fire",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "flamecharge",
+      "type": "fire",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "howl",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nuzzle",
+      "type": "electric",
+      "category": "physical",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 5,
+      "source": "showdown"
+    },
+    {
+      "move": "playrough",
+      "type": "fairy",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "playrough",
+      "type": "fairy",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "level-up",
+      "level": 45,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "risingvoltage",
+      "type": "electric",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "roar",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "round",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sandattack",
+      "type": "ground",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snarl",
+      "type": "dark",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "spark",
+      "type": "electric",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 20,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "swift",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwhip",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "thunder",
+      "type": "electric",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderbolt",
+      "type": "electric",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderfang",
+      "type": "electric",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderwave",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "uproar",
+      "type": "normal",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "voltswitch",
+      "type": "electric",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "wildcharge",
+      "type": "electric",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "wildcharge",
+      "type": "electric",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 40,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "sword",
+      "text": "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
+    },
+    {
+      "game": "shield",
+      "text": "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 25,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "boltund",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/836/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "yamper",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/835/"
+      }
+    },
+    "bulbapedia_condition": "= Yamper evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 4,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:04:12.169Z"
+}

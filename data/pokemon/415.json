@@ -1,0 +1,1132 @@
+{
+  "id": 415,
+  "name": "combee",
+  "display_name": "combee",
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "height_m": 0.3,
+  "weight_kg": 5.5,
+  "stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 42,
+    "special-attack": 30,
+    "special-defense": 42,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "honey-gather",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "hustle",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/415.png",
+  "species": {
+    "habitat": null,
+    "color": "yellow",
+    "shape": "heads",
+    "generation": "generation-iv",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "base_happiness": 70,
+    "egg_groups": [
+      "bug"
+    ],
+    "hatch_counter": 15,
+    "gender_rate": 1,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "diamond",
+      "location": "Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pearl",
+      "location": "Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "platinum",
+      "location": "Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "heartgold",
+      "location": "Routes , , , , , , , Vermilion City, Celadon City, Cerulean City (Headbutt trees), National Park (Bug-Catching Contest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "soulsilver",
+      "location": "Routes , , , , , , , Vermilion City, Celadon City, Cerulean City (Headbutt trees), National Park (Bug-Catching Contest)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "black",
+      "location": "Route 12 (Unova)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white",
+      "location": "Route 12 (Unova)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "black-2",
+      "location": "Route 12 (Unova) and Lostlorn Forest, Lostlorn Forest (Hidden Grotto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white-2",
+      "location": "Route 12 (Unova) and Lostlorn Forest, Lostlorn Forest (Hidden Grotto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "x",
+      "location": "Route 4 (Kalos), , Friend Safari (Bug)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "y",
+      "location": "Route 4 (Kalos), , Friend Safari (Bug)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword",
+      "location": "Rolling Fields, Bridge Field, South Lake Miloch (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "Rolling Fields, Bridge Field, South Lake Miloch (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Honeycalm Island, Honeycalm Island (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "brilliant-diamond",
+      "location": "Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees), Grand Underground - Grassland Cave, Sunlit Cavern",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shining-pearl",
+      "location": "Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees), Grand Underground - Grassland Cave, Sunlit Cavern",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "legends-arceus",
+      "location": "'''Obsidian Fieldlands:''' Grueling Grove, near The Heartwood, near Oreburrow Tunnel, '''Crimson Mirelands:''' Cloudpool Ridge, near Cottonsedge Prairie, near Droning Meadow, near Lake Valor, '''Cobalt Coastlands:''' Aipom Hill '''Obsidian Fieldlands:''' The Heartwood, near Grandtree Arena, near Oreburrow Tunnel, Ramanas IslandShaking trees, '''Crimson Mirelands:''' Cottonsedge Prairie, Droning MeadowShaking trees, '''Cobalt Coastlands:''' Aipom HillShaking trees",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "scarlet",
+      "location": "South Province: Area One, Area Two, Area Four, East Province: East Paldean Sea, West Province: Area One, Tera Raid Battles (Combee|1★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "South Province: Area One, Area Two, Area Four, East Province: East Paldean Sea, West Province: Area One, Tera Raid Battles (Combee|1★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-time",
+      "location": "Apple Woods (6F-12F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-sky",
+      "location": "Apple Woods (6F-12F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ranger-soa",
+      "location": "Vien Forest, Chroma Road",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ranch",
+      "location": "Hayley's trades",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble",
+      "location": "Silent Forest",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ranger-gs",
+      "location": "Dangerous Cliff, Dark Temple, Light Temple",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-blast",
+      "location": "Treetops: Soothing Shore",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-u",
+      "location": "Adventure Area: Unexpected Land, Flower Garden: Guardians of the Flower Patch, Entranceway: A Fateful Showdown!",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "battle-trozei",
+      "location": "Safari Jungle: Stage 2",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-world",
+      "location": "Silver Isles: Fragrant Tree (All Areas), Starlight Islands: Time-Leap Plains (All Areas)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-rush",
+      "location": "Snorlax Sea, Mewtwo Sea, Arceus Sea, Mewtwo SeaFinal",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "new-snap",
+      "location": "Florio Nature ParkNight, Secret Side PathNight, Florio Island Illumina SpotLevel 2",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shuffle",
+      "location": "Violeta Palace: Stage 367",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "aircutter",
+      "type": "flying",
+      "category": "special",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 25,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "aircutter",
+      "type": "flying",
+      "category": "special",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 25,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 7,
+      "method": "level-up",
+      "level": 13,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 6,
+      "method": "level-up",
+      "level": 13,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 5,
+      "method": "level-up",
+      "level": 13,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbite",
+      "type": "bug",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 4,
+      "method": "level-up",
+      "level": 13,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbuzz",
+      "type": "bug",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbuzz",
+      "type": "bug",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbuzz",
+      "type": "bug",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 7,
+      "method": "level-up",
+      "level": 29,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbuzz",
+      "type": "bug",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 6,
+      "method": "level-up",
+      "level": 29,
+      "source": "showdown"
+    },
+    {
+      "move": "bugbuzz",
+      "type": "bug",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 5,
+      "method": "level-up",
+      "level": 29,
+      "source": "showdown"
+    },
+    {
+      "move": "dualwingbeat",
+      "type": "flying",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endeavor",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endeavor",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endeavor",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endeavor",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endeavor",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "gust",
+      "type": "flying",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "gust",
+      "type": "flying",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "gust",
+      "type": "flying",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "gust",
+      "type": "flying",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 6,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "gust",
+      "type": "flying",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 5,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "gust",
+      "type": "flying",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "gust",
+      "type": "flying",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 4,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "lunge",
+      "type": "bug",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "mudslap",
+      "type": "ground",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "ominouswind",
+      "type": "ghost",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "skittersmack",
+      "type": "bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stringshot",
+      "type": "bug",
+      "category": "status",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "strugglebug",
+      "type": "bug",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "strugglebug",
+      "type": "bug",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "strugglebug",
+      "type": "bug",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "sweetscent",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "sweetscent",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "sweetscent",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "sweetscent",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 6,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "sweetscent",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 5,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "sweetscent",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 4,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "swift",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwind",
+      "type": "flying",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwind",
+      "type": "flying",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwind",
+      "type": "flying",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwind",
+      "type": "flying",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwind",
+      "type": "flying",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "diamond",
+      "text": "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN."
+    },
+    {
+      "game": "pearl",
+      "text": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep."
+    },
+    {
+      "game": "platinum",
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN."
+    },
+    {
+      "game": "heartgold",
+      "text": "At night, COMBEE sleep in a group of about a thousand, packed closely together in a lump."
+    },
+    {
+      "game": "soulsilver",
+      "text": "At night, COMBEE sleep in a group of about a thousand, packed closely together in a lump."
+    },
+    {
+      "game": "black",
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen."
+    },
+    {
+      "game": "white",
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen."
+    },
+    {
+      "game": "black-2",
+      "text": "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee."
+    },
+    {
+      "game": "white-2",
+      "text": "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee."
+    },
+    {
+      "game": "x",
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen."
+    },
+    {
+      "game": "y",
+      "text": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep."
+    },
+    {
+      "game": "omega-ruby",
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen."
+    },
+    {
+      "game": "alpha-sapphire",
+      "text": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep."
+    },
+    {
+      "game": "sword",
+      "text": "The members of the trio spend all their time together. Each one has a slightly different taste in nectar."
+    },
+    {
+      "game": "shield",
+      "text": "It ceaselessly gathers nectar from sunrise to sundown, all for the sake of Vespiquen and the swarm."
+    },
+    {
+      "game": "legends-arceus",
+      "text": "They swear fealty to a queen Pokémon and work diligently to gather nectar. Each swarm produces a different flavor of honey."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": 1,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 21,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "vespiquen",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/416/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "combee",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/415/"
+      }
+    },
+    "bulbapedia_condition": "= Female Combee evolve into . Male Combee are not known to evolve. (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </small> |no2=0416 |name2=Vespiquen |type1-2=Bug |type2-2=Flying}}</div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 32,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T01:56:53.508Z"
+}

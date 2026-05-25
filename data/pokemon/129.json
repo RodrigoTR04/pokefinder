@@ -1,0 +1,2026 @@
+{
+  "id": 129,
+  "name": "magikarp",
+  "display_name": "magikarp",
+  "types": [
+    "water"
+  ],
+  "height_m": 0.9,
+  "weight_kg": 10,
+  "stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "special-attack": 15,
+    "special-defense": 20,
+    "speed": 80
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "rattled",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+  "species": {
+    "habitat": "waters-edge",
+    "color": "red",
+    "shape": "fish",
+    "generation": "generation-i",
+    "growth_rate": "slow",
+    "capture_rate": 255,
+    "base_happiness": 70,
+    "egg_groups": [
+      "water2",
+      "dragon"
+    ],
+    "hatch_counter": 5,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "red",
+      "location": "Routes , , , , , , , , , , , , , , Pallet Town, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Safari Zone (Kanto), Seafoam Islands, Cinnabar Island, Indigo Plateau, Cerulean Cave (Old Rod), Routes , , , and , Fuchsia City (Super Rod), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "blue",
+      "location": "Routes , , , , , , , , , , , , , , Pallet Town, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Safari Zone (Kanto), Seafoam Islands, Cinnabar Island, Indigo Plateau, Cerulean Cave (Old Rod), Routes , , , and , Fuchsia City (Super Rod), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "blue",
+      "location": "Routes , , , , , , , , , , , , , , Pallet Town, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Safari Zone (Kanto), Seafoam Islands, Cinnabar Island, Indigo Plateau (Old Rod), Routes , , , and , Fuchsia City (Super Rod), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "yellow",
+      "location": "Routes , , , , , , , , , , , , , and , Pallet Town, Viridian City, Cerulean City, Vermilion City, Celadon City, Fuchsia City, Safari Zone (Kanto), Seafoam Islands, Cinnabar Island, Indigo Plateau, Cerulean Cave (Old Rod), Fuchsia City, Safari Zone (Kanto) (Super Rod), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "gold",
+      "location": "Routes , , , , , New Bark Town, Pallet Town, Cherrygrove City, Cerulean City and Gym, Cianwood City, Vermilion City, Cinnabar Island, Whirl Islands (Old Rod or Good Rod), Routes , , , , , , , , , , , , , , , , , and , Violet City, Ecruteak City, Olivine City, Cianwood City, Viridian City, Ruins of Alph, Union Cave, Ilex Forest, Slowpoke Well, Mt. Mortar, Tohjo Falls, Mt. Silver, Mt. Silver Cave (fishing), Routes , , Dark Cave, Lake of Rage, Blackthorn City, Dragon's Den, Fuchsia City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "silver",
+      "location": "Routes , , , , , New Bark Town, Pallet Town, Cherrygrove City, Cerulean City and Gym, Cianwood City, Vermilion City, Cinnabar Island, Whirl Islands (Old Rod or Good Rod), Routes , , , , , , , , , , , , , , , , , and , Violet City, Ecruteak City, Olivine City, Cianwood City, Viridian City, Ruins of Alph, Union Cave, Ilex Forest, Slowpoke Well, Mt. Mortar, Tohjo Falls, Mt. Silver, Mt. Silver Cave (fishing), Routes , , Dark Cave, Lake of Rage, Blackthorn City, Dragon's Den, Fuchsia City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "crystal",
+      "location": "Routes , , , , , New Bark Town, Pallet Town, Cherrygrove City, Cianwood City, Vermilion City, Cinnabar Island, Whirl Islands (Old Rod or Good Rod), Routes , , , , , , , , , , , , , , , , , and , Violet City, Ecruteak City, Olivine City, Cerulean City, Viridian City, Ruins of Alph, Union Cave, Ilex Forest, Slowpoke Well, Mt. Mortar, Tohjo Falls, Mt. Silver, Mt. Silver Cave (fishing), Routes , , Dark Cave, Lake of Rage, Blackthorn City, Dragon's Den, Fuchsia City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ruby",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , , , , , , , , and , Petalburg City, Dewford Town, Slateport City, Lilycove City, Pacifidlog Town, Ever Grande City, Abandoned Ship, , Shoal Cave, Meteor Falls, Seafloor Cavern, , Mossdeep City (Old Rod or Good Rod), Route 104 (Hoenn) (fishing), Sootopolis City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sapphire",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , , , , , , , , and , Petalburg City, Dewford Town, Slateport City, Lilycove City, Pacifidlog Town, Ever Grande City, Abandoned Ship, , Shoal Cave, Meteor Falls, Seafloor Cavern, , Mossdeep City (Old Rod or Good Rod), Route 104 (Hoenn) (fishing), Sootopolis City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "emerald",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , , , , , , , , and , Petalburg City, Dewford Town, Slateport City, Lilycove City, Pacifidlog Town, Ever Grande City, Abandoned Ship, , Shoal Cave, Meteor Falls, Seafloor Cavern, , Mossdeep City (Old Rod or Good Rod), Route 104 (Hoenn) (fishing), Sootopolis City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "firered",
+      "location": "Routes , , , , , , , , , , , , and , Treasure Beach, Kindle Road, Cape Brink, Bond Bridge, Five Isle Meadow, Ruin Valley, Water Path, Water Labyrinth, Resort Gorgeous, Memorial Pillar, Green Path, Outcast Island, Tanoby Ruins, Pallet Town, Cerulean City, Viridian City, Fuchsia City, Vermilion City, Celadon City, Cinnabar Island, One Island, Four Island, Five Island, Trainer Tower, Cerulean Cave, , Berry Forest, Icefall Cave, Seafoam Islands (Old Rod or Good Rod), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "leafgreen",
+      "location": "Routes , , , , , , , , , , , , and , Treasure Beach, Kindle Road, Cape Brink, Bond Bridge, Five Isle Meadow, Ruin Valley, Water Path, Water Labyrinth, Resort Gorgeous, Memorial Pillar, Green Path, Outcast Island, Tanoby Ruins, Pallet Town, Cerulean City, Viridian City, Fuchsia City, Vermilion City, Celadon City, Cinnabar Island, One Island, Four Island, Five Island, Trainer Tower, Cerulean Cave, , Berry Forest, Icefall Cave, Seafoam Islands (Old Rod or Good Rod), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "diamond",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , and , Twinleaf Town, Eterna City, Canalave City, Celestic Town, Pastoria City, Sunyshore City, Lake Verity, Lake Acuity, Lake Valor, Ravaged Path, Valley Windworks, Mt. Coronet, Iron Island, Great Marsh, Sendoff Spring, , , Fuego Ironworks, Oreburgh Gate, Resort Area (Old Rod or Good Rod), Trade on Route 226 (Sinnoh) (In Generation IV|German)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pearl",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , and , Twinleaf Town, Eterna City, Canalave City, Celestic Town, Pastoria City, Sunyshore City, Lake Verity, Lake Acuity, Lake Valor, Ravaged Path, Valley Windworks, Mt. Coronet, Iron Island, Great Marsh, Sendoff Spring, , , Fuego Ironworks, Oreburgh Gate, Resort Area (Old Rod or Good Rod), Trade on Route 226 (Sinnoh) (In Generation IV|German)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "platinum",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , , Twinleaf Town, Eterna City, Canalave City, Celestic Town, Pastoria City, Sunyshore City, Lake Verity, Lake Acuity, Lake Valor, Ravaged Path, Valley Windworks, Mt. Coronet, Iron Island, Great Marsh, Sendoff Spring, , , Fuego Ironworks, Oreburgh Gate (Old Rod or Good Rod), Trade on Route 226 (Sinnoh) (In Generation IV|German), Resort Area (fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "heartgold",
+      "location": "Routes , , , , , , , , , , New Bark Town, Cherrygrove City, Olivine City, Cianwood City, Cinnabar Island, Pallet Town, Union Cave 3F, Whirl Islands 1F/B1F/B2F, Mt. Silver Cave 1F, Cerulean Cave, Seafoam Islands B4F, Vermilion City (Old Rod or Good Rod), Routes , , , , , , , , , , , , , , , Violet City, Ecruteak City, Viridian City, Cerulean City, Ruins of Alph, Union Cave 1F/2F, Slowpoke Well, Cliff Edge Gate, Mt. Mortar, Tohjo Falls, Mt. Silver, Ilex Forest (fishing), Routes , , Dark Cave, Lake of Rage, Blackthorn City, Fuchsia City, Dragon's Den, Mt. Moon Square (ing and fishing), Safari Zone (Johto) (, Old Rod and Good Rod in Meadow, Swamp and Rocky Beach - default; Old and Good Rod in Marshland, default; Old Rod in Wetland, default)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "soulsilver",
+      "location": "Routes , , , , , , , , , , New Bark Town, Cherrygrove City, Olivine City, Cianwood City, Cinnabar Island, Pallet Town, Union Cave 3F, Whirl Islands 1F/B1F/B2F, Mt. Silver Cave 1F, Cerulean Cave, Seafoam Islands B4F, Vermilion City (Old Rod or Good Rod), Routes , , , , , , , , , , , , , , , Violet City, Ecruteak City, Viridian City, Cerulean City, Ruins of Alph, Union Cave 1F/2F, Slowpoke Well, Cliff Edge Gate, Mt. Mortar, Tohjo Falls, Mt. Silver, Ilex Forest (fishing), Routes , , Dark Cave, Lake of Rage, Blackthorn City, Fuchsia City, Dragon's Den, Mt. Moon Square (ing and fishing), Safari Zone (Johto) (, Old Rod and Good Rod in Meadow, Swamp and Rocky Beach - default; Old and Good Rod in Marshland, default; Old Rod in Wetland, default)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pal-park",
+      "location": "Pond",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "black",
+      "location": "Buy from Magikarp salesman for 500 on Marvelous Bridge",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white",
+      "location": "Buy from Magikarp salesman for 500 on Marvelous Bridge",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "black-2",
+      "location": "Nature Preserve (fishing), Buy from Magikarp salesman for 500 on Marvelous Bridge",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "white-2",
+      "location": "Nature Preserve (fishing), Buy from Magikarp salesman for 500 on Marvelous Bridge",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "x",
+      "location": "Routes , , Parfum Palace (fishing), Trade in a hotel in Camphrier Town, Ambrette Town, Cyllage City, Geosenge Town, Coumarine City, or Couriway Town",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "y",
+      "location": "Routes , , Parfum Palace (fishing), Trade in a hotel in Camphrier Town, Ambrette Town, Cyllage City, Geosenge Town, Coumarine City, or Couriway Town",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "omega-ruby",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , , , , , , , , Sea Mauville, Petalburg City, Meteor Falls, Dewford Town, Mossdeep City, Lilycove City, Slateport City, Team Magma Hideout, Team Aqua Hideout, Sealed Chamber, , Ever Grande City, Pacifidlog Town, Scorched Slab, Safari Zone (Hoenn), Shoal Cave, Seafloor Cavern, Battle Resort (Old Rod or Good Rod), Route 104 (Hoenn) (fishing), Sootopolis City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "alpha-sapphire",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , , , , , , , , Sea Mauville, Petalburg City, Meteor Falls, Dewford Town, Mossdeep City, Lilycove City, Slateport City, Team Magma Hideout, Team Aqua Hideout, Sealed Chamber, , Ever Grande City, Pacifidlog Town, Scorched Slab, Safari Zone (Hoenn), Shoal Cave, Seafloor Cavern, Battle Resort (Old Rod or Good Rod), Route 104 (Hoenn) (fishing), Sootopolis City (ing and fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sun",
+      "location": "Routes , , , , , , Melemele Sea, Seaward Cave, Kala'e Bay, Paniola Town, Akala Outskirts, Brooklet Hill, Malie Garden, Seafolk Village, Poni Wilds, Poni Breaker Coast, Poni Meadow, Poni Gauntlet, Vast Poni Canyon, Secluded Shore (fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "moon",
+      "location": "Routes , , , , , , Melemele Sea, Seaward Cave, Kala'e Bay, Paniola Town, Akala Outskirts, Brooklet Hill, Malie Garden, Seafolk Village, Poni Wilds, Poni Breaker Coast, Poni Meadow, Poni Gauntlet, Vast Poni Canyon, Secluded Shore (fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ultra-sun",
+      "location": "Routes , , , , , , Melemele Sea, Seaward Cave, Kala'e Bay, Paniola Town, Akala Outskirts, Brooklet Hill, Malie Garden, Seafolk Village, Poni Breaker Coast, Poni Meadow, Poni Gauntlet, Vast Poni Canyon (fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ultra-moon",
+      "location": "Routes , , , , , , Melemele Sea, Seaward Cave, Kala'e Bay, Paniola Town, Akala Outskirts, Brooklet Hill, Malie Garden, Seafolk Village, Poni Breaker Coast, Poni Meadow, Poni Gauntlet, Vast Poni Canyon (fishing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "lets-go-pikachu",
+      "location": "Routes , , , , , , , , , , , , , and , Seafoam Islands, Cerulean Cave (Sea Skim), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "lets-go-eevee",
+      "location": "Routes , , , , , , , , , , , , , and , Seafoam Islands, Cerulean Cave (Sea Skim), Buy from Magikarp salesman for 500 on Route 4 (Kanto)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword",
+      "location": "South Lake Miloch, Routes , , , and , Axew's Eye, Bridge Field, East Lake Axewell, Motostoke, North Lake Miloch, Slumbering Weald, South Lake Miloch (fishing), West Lake Axewell (ing and fishing), Bridge Field, Dusty Bowl, East Lake Axewell, Giant's Cap, Lake of Outrage, West Lake Axewell (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "South Lake Miloch, Routes , , , and , Axew's Eye, Bridge Field, East Lake Axewell, Motostoke, North Lake Miloch, Slumbering Weald, South Lake Miloch (fishing), West Lake Axewell (ing and fishing), Bridge Field, Dusty Bowl, East Lake Axewell, Giant's Cap, Lake of Outrage, West Lake Axewell (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Fields of Honor, Courageous Cavern, Soothing Wetlands, Challenge Beach, Forest of Focus, Training Lowlands, Workout Sea, Loop Lagoon, Stepping-Stone Sea, Insular Sea, Honeycalm Island, Honeycalm Sea, Giant's Bed, Snowslide Slope, Giant's Foot, Frigid Sea, Ballimere Lake (fishing), Giant's Bed, Giant's Foot, Roaring-Sea Caves, Ballimere Lake (ing)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "brilliant-diamond",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , and , Twinleaf Town, Eterna City, Canalave City, Celestic Town, Pastoria City, Sunyshore City, Lake Verity, Lake Acuity, Lake Valor, Ravaged Path, Valley Windworks, Mt. Coronet, Iron Island, Great Marsh, Sendoff Spring, , , Fuego Ironworks, Oreburgh Gate, Resort Area (Old Rod or Good Rod), Trade on Route 226 (Sinnoh) (In Generation VIII|German)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shining-pearl",
+      "location": "Routes , , , , , , , , , , , , , , , , , , , , , and , Twinleaf Town, Eterna City, Canalave City, Celestic Town, Pastoria City, Sunyshore City, Lake Verity, Lake Acuity, Lake Valor, Ravaged Path, Valley Windworks, Mt. Coronet, Iron Island, Great Marsh, Sendoff Spring, , , Fuego Ironworks, Oreburgh Gate, Resort Area (Old Rod or Good Rod), Trade on Route 226 (Sinnoh) (In Generation VIII|German)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "legends-arceus",
+      "location": "'''Obsidian Fieldlands:''' Worn Bridge (mass outbreaks), near Oreburrow Tunnel&nbsp;link=Alpha Pokémon|14px, Obsidian Falls, Lake Verity, '''Cobalt Coastlands:''' massive mass outbreaks, '''Coronet Highlands:''' near Celestica Trail",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "scarlet",
+      "location": "South Province: Area One, Area Two, Area Three, Area Four, Area Five, Area Six, South Paldean Sea, Poco Path, East Province: Area Two, Area Three, East Paldean Sea, Tagtree Thicket, West Province: Area Two, Area Three, West Paldean Sea, North Province: Area One, North Paldean Sea, Dalizapa Passage, Glaseado Mountain, Tera Raid Battles (Magikarp|2★, Magikarp|3★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "South Province: Area One, Area Two, Area Three, Area Four, Area Five, Area Six, South Paldean Sea, Poco Path, East Province: Area Two, Area Three, East Paldean Sea, Tagtree Thicket, West Province: Area Two, Area Three, West Paldean Sea, North Province: Area One, North Paldean Sea, Dalizapa Passage, Glaseado Mountain, Tera Raid Battles (Magikarp|2★, Magikarp|3★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "scarlet-violet-dlc",
+      "location": "Reveler's Road, Mossfell Confluence, Fellhorn Gorge, Oni Mountain, Oni's Maw, Infernal Pass, Chilling Waterhead, Kitakami Wilds",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "legends-z-a",
+      "location": "Saison Canal, '''Vert District:''' Coulant Waterway, Vert Sector 4, Vert Sector 9, Wild Zone 2, '''Bleu District:''' Bleu Sector 5, Bleu Sector 7, '''Magenta District:''' Magenta Street, '''Jaune District:''' Wild Zone 6, Wild Zone 11",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose (2★ & 4★ Water-type wild zones)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "snap",
+      "location": "Tunnel, , , , Valley",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pinball",
+      "location": "Red Field: Pewter City, Cycling Road , Blue Field: Fuchia City",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "channel",
+      "location": "Secret Cove",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "pinball-r&s",
+      "location": "Ocean (|Ruby Field}})",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "trozei",
+      "location": "SOL Laboratory 3, Secret Storage 5, Secret Storage 19, Mr. Who's Den",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-blue",
+      "location": "Waterfall Pond (7F-11F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ranger",
+      "location": "Safra Sea, Sekra Range",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-time",
+      "location": "Lake Afar (B1F-B12F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-darkness",
+      "location": "Lake Afar (B1F-B12F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-sky",
+      "location": "Lake Afar (B1F-B12F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble",
+      "location": "Bright Beach (Both Modes C, Normal Mode S)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "poképark-wii",
+      "location": "Meadow Zone",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-blast",
+      "location": "Lake: World Axle - B2F",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "poképark-2",
+      "location": "Arbor Area",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "conquest",
+      "location": "Fontaine, Dragnor",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-u",
+      "location": "Adventure Area: Unexpected Land, Aquatic Hill: Magikarp is All You Need",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "battle-trozei",
+      "location": "Island of Haste: Stage 1",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-world",
+      "location": "Dewdrop Bay: Castle Moat (All Areas), Origin Hideaway: Waterfall Basin (All Areas)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "picross",
+      "location": "Area 17: Stage 03",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-rush",
+      "location": "Charizard Sea2019, Snorlax Sea, Bulbasaur Sea, Charizard SeaFinal",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "md-dx",
+      "location": "Murky Cave (6F-10F), Waterfall Pond (7F-11F), Fainted Pokémon: Remains Island, Fantasy Strait, Strong Foe: Marvelous Sea (1F-17F)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "new-snap",
+      "location": "Florio Nature Park, Secret Side PathNight, Founja Jungle, Mightywide River, Elsewhere Forest, Belusylva Island Illumina Spot, Blushing BeachNight, Maricopia ReefDay, Lental Seafloor, Barren BadlandsNight Level 2, Shiver Snowfields, Outaway Cave, Ruins of Remembrance",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shuffle",
+      "location": "Desert Umbra: Stage 321, Event: ''Pokémon Safari'' (Tenth release; )",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "masters-ex",
+      "location": "Daily Battle (''The Golden Magikarp''):",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "red-japan",
+      "location": "seafoam islands b3f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "seafoam islands b3f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "seafoam islands b4f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "seafoam islands b4f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 12",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 12",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 12",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 12",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto sea route 19",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto sea route 19",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto sea route 20",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto sea route 20",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cinnabar island",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cinnabar island",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "viridian city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "viridian city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "vermilion city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "vermilion city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "celadon city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "celadon city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "fuchsia city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "fuchsia city",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "fuchsia city",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "fuchsia city",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "pallet town",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "pallet town",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 6",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 6",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 10",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 10",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 11",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 11",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 13",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 13",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 13",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 13",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 17",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 17",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 17",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 17",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 18",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 18",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 18",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 18",
+      "method": "super-rod",
+      "min_level": 15,
+      "max_level": 15,
+      "chance": 25,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto sea route 21",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto sea route 21",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 22",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 22",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 24",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 24",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 25",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 25",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave 1f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave 1f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "cerulean cave b1f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "cerulean cave b1f",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 23",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 23",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto safari zone middle",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto safari zone middle",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto safari zone area 1 east",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto safari zone area 1 east",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto safari zone area 2 north",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto safari zone area 2 north",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto safari zone area 3 west",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto safari zone area 3 west",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "vermilion city ss anne dock",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "vermilion city ss anne dock",
+      "method": "old-rod",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 4 pokemon center",
+      "method": "gift",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 4 pokemon center",
+      "method": "gift",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "red-japan",
+      "location": "kanto route 3 pokemon center",
+      "method": "gift",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    },
+    {
+      "game": "green-japan",
+      "location": "kanto route 3 pokemon center",
+      "method": "gift",
+      "min_level": 5,
+      "max_level": 5,
+      "chance": 100,
+      "source": "pokeapi"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 7,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 7,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 6,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 5,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 5,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bounce",
+      "type": "flying",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 85,
+      "pp": 5,
+      "gen": 4,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "celebrate",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 6,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 25,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 25,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 7,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 7,
+      "method": "V",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 6,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 5,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 5,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 4,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "flail",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 3,
+      "method": "level-up",
+      "level": 30,
+      "source": "showdown"
+    },
+    {
+      "move": "happyhour",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 6,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hydropump",
+      "type": "water",
+      "category": "special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hydropump",
+      "type": "water",
+      "category": "special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 5,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "V",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 7,
+      "method": "V",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 7,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 6,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 6,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 5,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 5,
+      "method": "D",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 5,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 4,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 4,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 4,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 4,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 4,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 4,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 3,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 8,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 8,
+      "method": "V",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 7,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 7,
+      "method": "V",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 6,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 5,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 4,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 3,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "red",
+      "text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+    },
+    {
+      "game": "blue",
+      "text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+    },
+    {
+      "game": "yellow",
+      "text": "Famous for being very unreliable. It can be found swimming in seas, lakes, rivers and shallow puddles."
+    },
+    {
+      "game": "gold",
+      "text": "An underpowered, pathetic POKéMON. It may jump high on rare occasions, but never more than seven feet."
+    },
+    {
+      "game": "silver",
+      "text": "For no reason, it jumps and splashes about, making it easy for predators like PIDGEOTTO to catch it mid-jump."
+    },
+    {
+      "game": "crystal",
+      "text": "This weak and pathetic POKéMON gets easily pushed along rivers when there are strong currents."
+    },
+    {
+      "game": "ruby",
+      "text": "MAGIKARP is a pathetic excuse for a POKéMON that is only capable of flopping and splashing. This behavior prompted scientists to undertake research into it."
+    },
+    {
+      "game": "sapphire",
+      "text": "MAGIKARP is virtually useless in battle as it can only splash around. As a result, it is considered to be weak. However, it is actually a very hardy POKéMON that can survive in any body of water no matter how polluted it is."
+    },
+    {
+      "game": "emerald",
+      "text": "Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many MAGIKARP deposited there by the flow."
+    },
+    {
+      "game": "firered",
+      "text": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic POKéMON in the world."
+    },
+    {
+      "game": "leafgreen",
+      "text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+    },
+    {
+      "game": "diamond",
+      "text": "It is said to be the world’s weakest Pokémon. No one knows why it has managed to survive."
+    },
+    {
+      "game": "pearl",
+      "text": "It is unable to swim against even slow-moving currents. It always splashes about for some reason."
+    },
+    {
+      "game": "platinum",
+      "text": "A MAGIKARP living for many years can leap a mountain using Splash. The move remains useless, though."
+    },
+    {
+      "game": "heartgold",
+      "text": "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but usually not more than seven feet."
+    },
+    {
+      "game": "soulsilver",
+      "text": "For no reason, it jumps and splashes about, making it easy for predators like PIDGEOTTO to catch it mid-jump."
+    },
+    {
+      "game": "black",
+      "text": "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though."
+    },
+    {
+      "game": "white",
+      "text": "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though."
+    },
+    {
+      "game": "black-2",
+      "text": "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though."
+    },
+    {
+      "game": "white-2",
+      "text": "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though."
+    },
+    {
+      "game": "x",
+      "text": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
+    },
+    {
+      "game": "y",
+      "text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
+    },
+    {
+      "game": "omega-ruby",
+      "text": "Magikarp is a pathetic excuse for a Pokémon that is only capable of flopping and splashing. This behavior prompted scientists to undertake research into it."
+    },
+    {
+      "game": "alpha-sapphire",
+      "text": "Magikarp is virtually useless in battle as it can only splash around. As a result, it is considered to be weak. However, it is actually a very hardy Pokémon that can survive in any body of water no matter how polluted it is."
+    },
+    {
+      "game": "sun",
+      "text": "Although weak and helpless, this Pokémon is incredibly fertile. They exist in such multitudes, you’ll soon grow tired of seeing them."
+    },
+    {
+      "game": "moon",
+      "text": "Its reckless leaps make it easy pickings for predators. On the bright side, many Pokémon enjoy longer life spans, thanks to Magikarp."
+    },
+    {
+      "game": "ultra-sun",
+      "text": "In the distant past, they were fairly strong, but they have become gradually weaker over time."
+    },
+    {
+      "game": "ultra-moon",
+      "text": "Thanks to their strong hold on life, dirty water doesn’t bother them at all. They live in waters all over the world!"
+    },
+    {
+      "game": "lets-go-pikachu",
+      "text": "Famous for being very unreliable. It can be found swimming in seas, lakes, rivers, and shallow puddles."
+    },
+    {
+      "game": "lets-go-eevee",
+      "text": "Famous for being very unreliable. It can be found swimming in seas, lakes, rivers, and shallow puddles."
+    },
+    {
+      "game": "sword",
+      "text": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
+    },
+    {
+      "game": "shield",
+      "text": "This weak and pathetic Pokémon gets easily pushed along rivers when there are strong currents."
+    },
+    {
+      "game": "legends-arceus",
+      "text": "A feeble, pitiful imbecile of a Pokémon that is nonetheless very hardy. Unperturbed by turbid water, it can be found living in all sorts of places."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 20,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "gyarados",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/130/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "magikarp",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/129/"
+      }
+    },
+    "bulbapedia_condition": "= Magikarp evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"></div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 67,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T01:52:01.690Z"
+}

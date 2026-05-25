@@ -1,0 +1,671 @@
+{
+  "id": 978,
+  "name": "tatsugiri-curly",
+  "display_name": "tatsugiri",
+  "types": [
+    "dragon",
+    "water"
+  ],
+  "height_m": 0.3,
+  "weight_kg": 8,
+  "stats": {
+    "hp": 68,
+    "attack": 50,
+    "defense": 60,
+    "special-attack": 120,
+    "special-defense": 95,
+    "speed": 82
+  },
+  "abilities": [
+    {
+      "name": "commander",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "storm-drain",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/978.png",
+  "species": {
+    "habitat": null,
+    "color": "pink",
+    "shape": "fish",
+    "generation": "generation-ix",
+    "growth_rate": "medium-slow",
+    "capture_rate": 100,
+    "base_happiness": 50,
+    "egg_groups": [
+      "water2"
+    ],
+    "hatch_counter": 35,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "scarlet",
+      "location": "North Province: Casseroya Lake, North Province: Casseroya LakeFormer Titan (Only one) ('''Curly Form'''), Tera Raid Battles (Tatsugiri|5★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "North Province: Casseroya Lake, North Province: Casseroya LakeFormer Titan (Only one) ('''Curly Form'''), Tera Raid Battles (Tatsugiri|5★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose (4★ wild zones) ('''All Forms'''), Hyperspace Sushi Paradise (Only one) ('''Curly Form''')",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "batonpass",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "batonpass",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "chillingwater",
+      "type": "water",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "counter",
+      "type": "fighting",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dracometeor",
+      "type": "dragon",
+      "category": "special",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dragoncheer",
+      "type": "dragon",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dragondance",
+      "type": "dragon",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dragonpulse",
+      "type": "dragon",
+      "category": "special",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dragonpulse",
+      "type": "dragon",
+      "category": "special",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 52,
+      "source": "showdown"
+    },
+    {
+      "move": "dragonpulse",
+      "type": "dragon",
+      "category": "special",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "gigaimpact",
+      "type": "normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "harden",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 6,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 12,
+      "source": "showdown"
+    },
+    {
+      "move": "hydropump",
+      "type": "water",
+      "category": "special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hyperbeam",
+      "type": "normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icywind",
+      "type": "ice",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icywind",
+      "type": "ice",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "lunge",
+      "type": "bug",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "memento",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 34,
+      "source": "showdown"
+    },
+    {
+      "move": "mirrorcoat",
+      "type": "psychic",
+      "category": "special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 47,
+      "source": "showdown"
+    },
+    {
+      "move": "muddywater",
+      "type": "water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "muddywater",
+      "type": "water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 39,
+      "source": "showdown"
+    },
+    {
+      "move": "muddywater",
+      "type": "water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 10,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nastyplot",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nastyplot",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 43,
+      "source": "showdown"
+    },
+    {
+      "move": "outrage",
+      "type": "dragon",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "raindance",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rapidspin",
+      "type": "normal",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 40,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "soak",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 23,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "surf",
+      "type": "water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "taunt",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "taunt",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 28,
+      "source": "showdown"
+    },
+    {
+      "move": "taunt",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "watergun",
+      "type": "water",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "waterpulse",
+      "type": "water",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "waterpulse",
+      "type": "water",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 17,
+      "source": "showdown"
+    },
+    {
+      "move": "whirlpool",
+      "type": "water",
+      "category": "special",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "scarlet",
+      "text": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside."
+    },
+    {
+      "game": "violet",
+      "text": "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [],
+      "is_baby": false,
+      "species": {
+        "name": "tatsugiri",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/978/"
+      }
+    },
+    "bulbapedia_condition": null
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 3,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:06:48.617Z"
+}

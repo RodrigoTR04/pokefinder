@@ -1,0 +1,855 @@
+{
+  "id": 972,
+  "name": "houndstone",
+  "display_name": "houndstone",
+  "types": [
+    "ghost"
+  ],
+  "height_m": 2,
+  "weight_kg": 15,
+  "stats": {
+    "hp": 72,
+    "attack": 101,
+    "defense": 100,
+    "special-attack": 50,
+    "special-defense": 97,
+    "speed": 68
+  },
+  "abilities": [
+    {
+      "name": "sand-rush",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "fluffy",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/972.png",
+  "species": {
+    "habitat": null,
+    "color": "white",
+    "shape": "quadruped",
+    "generation": "generation-ix",
+    "growth_rate": "medium-slow",
+    "capture_rate": 60,
+    "base_happiness": 50,
+    "egg_groups": [
+      "ground"
+    ],
+    "hatch_counter": 20,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "scarlet",
+      "location": "North Province: Area One, Dalizapa Passage, Glaseado Mountain, Casseroya Lake, Socarrat Trail, South Province: Area Five ( Type), Tera Raid Battles (Houndstone|4★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "North Province: Area One, Dalizapa Passage, Glaseado Mountain, Casseroya Lake, Socarrat Trail, South Province: Area Five ( Type), Tera Raid Battles (Houndstone|4★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "bite",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "level-up",
+      "level": 6,
+      "source": "showdown"
+    },
+    {
+      "move": "bodypress",
+      "type": "fighting",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bulldoze",
+      "type": "ground",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "charm",
+      "type": "fairy",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "charm",
+      "type": "fairy",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 51,
+      "source": "showdown"
+    },
+    {
+      "move": "confuseray",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "crunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "crunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 28,
+      "source": "showdown"
+    },
+    {
+      "move": "dig",
+      "type": "ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dig",
+      "type": "ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 16,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleedge",
+      "type": "normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleedge",
+      "type": "normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 58,
+      "source": "showdown"
+    },
+    {
+      "move": "endeavor",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "firefang",
+      "type": "fire",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "gigaimpact",
+      "type": "normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "growl",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "headbutt",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 12,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 41,
+      "source": "showdown"
+    },
+    {
+      "move": "hex",
+      "type": "ghost",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hyperbeam",
+      "type": "normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icefang",
+      "type": "ice",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "lastrespects",
+      "type": "ghost",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 0,
+      "source": "showdown"
+    },
+    {
+      "move": "lick",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 3,
+      "source": "showdown"
+    },
+    {
+      "move": "mudshot",
+      "type": "ground",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "mudslap",
+      "type": "ground",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nightshade",
+      "type": "ghost",
+      "category": "special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "painsplit",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "phantomforce",
+      "type": "ghost",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "phantomforce",
+      "type": "ghost",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 46,
+      "source": "showdown"
+    },
+    {
+      "move": "playrough",
+      "type": "fairy",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "playrough",
+      "type": "fairy",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 36,
+      "source": "showdown"
+    },
+    {
+      "move": "poltergeist",
+      "type": "ghost",
+      "category": "physical",
+      "power": 110,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "psychicfangs",
+      "type": "psychic",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "raindance",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "level-up",
+      "level": 24,
+      "source": "showdown"
+    },
+    {
+      "move": "roar",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "roar",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 9,
+      "source": "showdown"
+    },
+    {
+      "move": "sandstorm",
+      "type": "rock",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "scaryface",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "shadowball",
+      "type": "ghost",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snarl",
+      "type": "dark",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stompingtantrum",
+      "type": "ground",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sunnyday",
+      "type": "fire",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tailwhip",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 6,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thief",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderfang",
+      "type": "electric",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "trick",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "uproar",
+      "type": "normal",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "willowisp",
+      "type": "fire",
+      "category": "status",
+      "power": null,
+      "accuracy": 85,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "scarlet",
+      "text": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master."
+    },
+    {
+      "game": "violet",
+      "text": "A lovingly mourned Pokémon was reborn as Houndstone. It doesn’t like anyone touching the protuberance atop its head."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 30,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "night",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "houndstone",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/972/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "greavard",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/971/"
+      }
+    },
+    "bulbapedia_condition": "= Houndstone evolves from . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 3,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:06:42.712Z"
+}

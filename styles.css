@@ -812,6 +812,28 @@ button {
   border-radius: 4px;
 }
 
+/* === Conflict chip (multi-source disagreement warning) === */
+.conflict-chip {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  cursor: help;
+  vertical-align: middle;
+}
+[data-theme="dark"] .conflict-chip {
+  color: #fde68a;
+  background: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
 /* === Tab Strip === */
 .tab-strip {
   display: flex;

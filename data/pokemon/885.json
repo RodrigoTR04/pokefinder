@@ -1,0 +1,803 @@
+{
+  "id": 885,
+  "name": "dreepy",
+  "display_name": "dreepy",
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "height_m": 0.5,
+  "weight_kg": 2,
+  "stats": {
+    "hp": 28,
+    "attack": 60,
+    "defense": 30,
+    "special-attack": 40,
+    "special-defense": 30,
+    "speed": 82
+  },
+  "abilities": [
+    {
+      "name": "clear-body",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "infiltrator",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "cursed-body",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png",
+  "species": {
+    "habitat": null,
+    "color": "green",
+    "shape": "squiggle",
+    "generation": "generation-viii",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "egg_groups": [
+      "indeterminate",
+      "dragon"
+    ],
+    "hatch_counter": 40,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "sword",
+      "location": "Lake of Outrage, Axew's Eye, Rolling Fields (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "Lake of Outrage, Axew's Eye, Rolling Fields (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Slippery Slope, Old Cemetery, Giant's Foot, Frigid Sea, Ballimere Lake (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "South Province: Area One, Area Four, Area Five, Area Six, East Province: Area Two, Area Three, West Province: Area Two, Area Three, North Province: Glaseado Mountain, Area Zero, Tera Raid Battles (Dreepy|3★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "astonish",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "astonish",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "attract",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "batonpass",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "batonpass",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bite",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "bite",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "confuseray",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "confuseray",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "confuseray",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "curse",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "curse",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "curse",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "disable",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "disable",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleteam",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "doubleteam",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dracometeor",
+      "type": "dragon",
+      "category": "special",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dracometeor",
+      "type": "dragon",
+      "category": "special",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 8,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dragontail",
+      "type": "dragon",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dragontail",
+      "type": "dragon",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dragontail",
+      "type": "dragon",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "grudge",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "infestation",
+      "type": "bug",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "infestation",
+      "type": "bug",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "quickattack",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "quickattack",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "round",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "suckerpunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "suckerpunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "swift",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "swift",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderwave",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderwave",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "sword",
+      "text": "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas."
+    },
+    {
+      "game": "shield",
+      "text": "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can evolve and become much stronger."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 50,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 60,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "dragapult",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/887/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "drakloak",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/886/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "dreepy",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/885/"
+      }
+    },
+    "bulbapedia_condition": "= Dreepy evolves into , which evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 4,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:05:09.606Z"
+}

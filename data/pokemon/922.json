@@ -1,0 +1,890 @@
+{
+  "id": 922,
+  "name": "pawmo",
+  "display_name": "pawmo",
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "height_m": 0.4,
+  "weight_kg": 6.5,
+  "stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 40,
+    "speed": 85
+  },
+  "abilities": [
+    {
+      "name": "volt-absorb",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "natural-cure",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "iron-fist",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/922.png",
+  "species": {
+    "habitat": null,
+    "color": "yellow",
+    "shape": "upright",
+    "generation": "generation-ix",
+    "growth_rate": "medium",
+    "capture_rate": 80,
+    "base_happiness": 50,
+    "egg_groups": [
+      "ground"
+    ],
+    "hatch_counter": 15,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "scarlet",
+      "location": "South Province: Area One, Area Two, Area Three, Area Four, Area Five, Area Six, , East Province: Area One, Area Two, Area Three, West Province: Area One, Area Two, Area Three, Asado Desert, North Province: Area One, Area Three, Glaseado Mountain, North Province: Area Three ( Type), Area Zero, Tera Raid Battles (Pawmo|3★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "South Province: Area One, Area Two, Area Three, Area Four, Area Five, Area Six, , East Province: Area One, Area Two, Area Three, West Province: Area One, Area Two, Area Three, Asado Desert, North Province: Area One, Area Three, Glaseado Mountain, North Province: Area Three ( Type), Area Zero, Tera Raid Battles (Pawmo|3★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sleep",
+      "location": "Greengrass Isle (from Ultra 2) (Holiday 2024 only), Snowdrop Tundra (from Great 2), Old Gold Power Plant (from Basic 5), Greengrass IsleExpert (from Great 1)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "agility",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "agility",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 46,
+      "source": "showdown"
+    },
+    {
+      "move": "armthrust",
+      "type": "fighting",
+      "category": "physical",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 0,
+      "source": "showdown"
+    },
+    {
+      "move": "batonpass",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bite",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "level-up",
+      "level": 19,
+      "source": "showdown"
+    },
+    {
+      "move": "charge",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "charge",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 8,
+      "source": "showdown"
+    },
+    {
+      "move": "chargebeam",
+      "type": "electric",
+      "category": "special",
+      "power": 50,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "charm",
+      "type": "fairy",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "coaching",
+      "type": "fighting",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "crunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dig",
+      "type": "ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dig",
+      "type": "ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "level-up",
+      "level": 15,
+      "source": "showdown"
+    },
+    {
+      "move": "discharge",
+      "type": "electric",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 42,
+      "source": "showdown"
+    },
+    {
+      "move": "eerieimpulse",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electricterrain",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroball",
+      "type": "electric",
+      "category": "special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "electroweb",
+      "type": "electric",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "encore",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "entrainment",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 38,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "fling",
+      "type": "dark",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "focuspunch",
+      "type": "fighting",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "growl",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "helpinghand",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "knockoff",
+      "type": "dark",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "lowkick",
+      "type": "fighting",
+      "category": "physical",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "lowsweep",
+      "type": "fighting",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "metalclaw",
+      "type": "steel",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 35,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nuzzle",
+      "type": "electric",
+      "category": "physical",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 12,
+      "source": "showdown"
+    },
+    {
+      "move": "playrough",
+      "type": "fairy",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "quickattack",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 6,
+      "source": "showdown"
+    },
+    {
+      "move": "raindance",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "scratch",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "slam",
+      "type": "normal",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 32,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "spark",
+      "type": "electric",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 23,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sunnyday",
+      "type": "fire",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "superfang",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "swift",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thief",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunder",
+      "type": "electric",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderbolt",
+      "type": "electric",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderfang",
+      "type": "electric",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderpunch",
+      "type": "electric",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thundershock",
+      "type": "electric",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 9,
+      "method": "level-up",
+      "level": 3,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderwave",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thunderwave",
+      "type": "electric",
+      "category": "status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 27,
+      "source": "showdown"
+    },
+    {
+      "move": "upperhand",
+      "type": "fighting",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "voltswitch",
+      "type": "electric",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "wildcharge",
+      "type": "electric",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "wildcharge",
+      "type": "electric",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 52,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "scarlet",
+      "text": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks."
+    },
+    {
+      "game": "violet",
+      "text": "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 18,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": null,
+                  "min_move_count": null,
+                  "min_steps": 1000,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "pawmot",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/923/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "pawmo",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/922/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "pawmi",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/921/"
+      }
+    },
+    "bulbapedia_condition": "= Pawmo evolves from  and evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 3,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:05:47.670Z"
+}

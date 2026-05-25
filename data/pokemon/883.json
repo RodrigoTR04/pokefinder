@@ -1,0 +1,736 @@
+{
+  "id": 883,
+  "name": "arctovish",
+  "display_name": "arctovish",
+  "types": [
+    "water",
+    "ice"
+  ],
+  "height_m": 2,
+  "weight_kg": 175,
+  "stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 100,
+    "special-attack": 80,
+    "special-defense": 90,
+    "speed": 55
+  },
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "ice-body",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "slush-rush",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/883.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/883.png",
+  "species": {
+    "habitat": null,
+    "color": "blue",
+    "shape": "fish",
+    "generation": "generation-viii",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "hatch_counter": 35,
+    "gender_rate": -1,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "sword",
+      "location": "Revive from Fossilized Fish and Fossilized Dino by Cara Liss on Route 6 (Galar)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "Revive from Fossilized Fish and Fossilized Dino by Cara Liss on Route 6 (Galar)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Snowslide Slope (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "ancientpower",
+      "type": "rock",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "level-up",
+      "level": 21,
+      "source": "showdown"
+    },
+    {
+      "move": "auroraveil",
+      "type": "ice",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 35,
+      "source": "showdown"
+    },
+    {
+      "move": "avalanche",
+      "type": "ice",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "bite",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 8,
+      "method": "level-up",
+      "level": 28,
+      "source": "showdown"
+    },
+    {
+      "move": "blizzard",
+      "type": "ice",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "blizzard",
+      "type": "ice",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "gen": 8,
+      "method": "level-up",
+      "level": 77,
+      "source": "showdown"
+    },
+    {
+      "move": "bodyslam",
+      "type": "normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "brine",
+      "type": "water",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "crunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "crunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 56,
+      "source": "showdown"
+    },
+    {
+      "move": "dive",
+      "type": "water",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "facade",
+      "type": "normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "fishiousrend",
+      "type": "water",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "level-up",
+      "level": 63,
+      "source": "showdown"
+    },
+    {
+      "move": "freezedry",
+      "type": "ice",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 42,
+      "source": "showdown"
+    },
+    {
+      "move": "gigaimpact",
+      "type": "normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hail",
+      "type": "ice",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hydropump",
+      "type": "water",
+      "category": "special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hyperbeam",
+      "type": "normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icebeam",
+      "type": "ice",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icefang",
+      "type": "ice",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "iciclecrash",
+      "type": "ice",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "level-up",
+      "level": 70,
+      "source": "showdown"
+    },
+    {
+      "move": "iciclespear",
+      "type": "ice",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 100,
+      "pp": 30,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icywind",
+      "type": "ice",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "icywind",
+      "type": "ice",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 14,
+      "source": "showdown"
+    },
+    {
+      "move": "irondefense",
+      "type": "steel",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "ironhead",
+      "type": "steel",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "liquidation",
+      "type": "water",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "meteorbeam",
+      "type": "rock",
+      "category": "special",
+      "power": 120,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "powdersnow",
+      "type": "ice",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "powdersnow",
+      "type": "ice",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 8,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "level-up",
+      "level": 7,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "psychicfangs",
+      "type": "psychic",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "raindance",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rockblast",
+      "type": "rock",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rockslide",
+      "type": "rock",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rocktomb",
+      "type": "rock",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "round",
+      "type": "normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "snore",
+      "type": "normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "stoneedge",
+      "type": "rock",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 80,
+      "pp": 5,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "superfang",
+      "type": "normal",
+      "category": "physical",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "gen": 8,
+      "method": "level-up",
+      "level": 49,
+      "source": "showdown"
+    },
+    {
+      "move": "surf",
+      "type": "water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "waterfall",
+      "type": "water",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "watergun",
+      "type": "water",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "watergun",
+      "type": "water",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 8,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "whirlpool",
+      "type": "water",
+      "category": "special",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "zenheadbutt",
+      "type": "psychic",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 90,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "sword",
+      "text": "Though it’s able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
+    },
+    {
+      "game": "shield",
+      "text": "The skin on its face is impervious to attack, but breathing difficulties made this Pokémon go extinct anyway."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [],
+      "is_baby": false,
+      "species": {
+        "name": "arctovish",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/883/"
+      }
+    },
+    "bulbapedia_condition": null
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 3,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:05:07.338Z"
+}

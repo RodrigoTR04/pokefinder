@@ -1,0 +1,379 @@
+{
+  "id": 789,
+  "name": "cosmog",
+  "display_name": "cosmog",
+  "types": [
+    "psychic"
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.1,
+  "stats": {
+    "hp": 43,
+    "attack": 29,
+    "defense": 31,
+    "special-attack": 29,
+    "special-defense": 31,
+    "speed": 37
+  },
+  "abilities": [
+    {
+      "name": "unaware",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+  "species": {
+    "habitat": null,
+    "color": "blue",
+    "shape": "ball",
+    "generation": "generation-vii",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "base_happiness": 0,
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "hatch_counter": 120,
+    "gender_rate": -1,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "sun",
+      "location": "Lake of the Sunne (Only one)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "moon",
+      "location": "Lake of the Moone (Only one)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ultra-sun",
+      "location": "Lake of the Sunne (Only one)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "ultra-moon",
+      "location": "Lake of the Moone (Only one)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Received from an elderly woman in Freezington after stopping 's/'s attack",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "rumble-rush",
+      "location": "Mimikyu SeaFinal, Rowlet SeaFinal",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shuffle",
+      "location": "Event: ''A Great Chance a Day!''",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 7,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "splash",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 7,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "teleport",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "teleport",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "teleport",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 8,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "teleport",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 7,
+      "method": "level-up",
+      "level": 23,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "sun",
+      "text": "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere."
+    },
+    {
+      "game": "moon",
+      "text": "In ages past, it was called the child of the stars. It’s said to be a Pokémon from another world, but no specific details are known."
+    },
+    {
+      "game": "ultra-sun",
+      "text": "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn’t seem to care."
+    },
+    {
+      "game": "ultra-moon",
+      "text": "Whether or not it’s a Pokémon from this world is a mystery. When it’s in a jam, it warps away to a safe place to hide."
+    },
+    {
+      "game": "sword",
+      "text": "This Pokémon came from another universe. Its gaseous body is so light that even a gentle breeze can blow it away."
+    },
+    {
+      "game": "shield",
+      "text": "Cosmog is very curious but not very cautious, often placing itself in danger. If things start to look dicey, it teleports away."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": 43,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "level-up",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 53,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "solgaleo",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/791/"
+              }
+            },
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": null,
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": 53,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "lunala",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/792/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "cosmoem",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/790/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "cosmog",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/789/"
+      }
+    },
+    "bulbapedia_condition": "= Cosmog evolves into , which evolves into either  or . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 7,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:03:26.306Z"
+}

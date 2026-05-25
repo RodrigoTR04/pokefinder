@@ -1,0 +1,523 @@
+{
+  "id": 840,
+  "name": "applin",
+  "display_name": "applin",
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "height_m": 0.2,
+  "weight_kg": 0.5,
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 80,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 20
+  },
+  "abilities": [
+    {
+      "name": "ripen",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "gluttony",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "bulletproof",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+  "species": {
+    "habitat": null,
+    "color": "green",
+    "shape": "squiggle",
+    "generation": "generation-viii",
+    "growth_rate": "slow-then-very-fast",
+    "capture_rate": 255,
+    "base_happiness": 50,
+    "egg_groups": [
+      "plant",
+      "dragon"
+    ],
+    "hatch_counter": 20,
+    "gender_rate": 4,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "sword",
+      "location": "Route 5, Dusty Bowl, Giant's Mirror, Stony Wilderness, Axew's Eye, Bridge Field, Dappled Grove, Giant's Mirror, Rolling Fields, Stony Wilderness (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "shield",
+      "location": "Route 5, Dusty Bowl, Giant's Mirror, Stony Wilderness, Axew's Eye, Bridge Field, Dappled Grove, Giant's Mirror, Rolling Fields, Stony Wilderness (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "sword-shield-expansion",
+      "location": "Fields of Honor, Soothing Wetlands, Challenge Beach, Forest of Focus, Training Lowlands, Workout Sea, Loop Lagoon, Stepping-Stone Sea, Insular Sea, Loop Lagoon (Max Raid Battle)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "scarlet",
+      "location": "South Province: Area One, Area Two, Area Four, East Province: Area One, Area Two, Tagtree Thicket, West Province: Area Three, North Province: Area One, Area Two, Casseroya Lake, Tera Raid Battles (Applin|1★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "South Province: Area One, Area Two, Area Four, East Province: Area One, Area Two, Tagtree Thicket, West Province: Area Three, North Province: Area One, Area Two, Casseroya Lake, Tera Raid Battles (Applin|1★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "scarlet-violet-dlc",
+      "location": "Kitakami Road, Apple Hills, Mossfell Confluence, Tera Raid Battles (Applin|2★, Applin|3★)",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "new-snap",
+      "location": "Elsewhere ForestLevel 2+",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "astonish",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "astonish",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "attract",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 8,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "defensecurl",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "defensecurl",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "dracometeor",
+      "type": "dragon",
+      "category": "special",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 5,
+      "gen": 8,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "grassyglide",
+      "type": "grass",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 8,
+      "method": "tutor",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "pounce",
+      "type": "bug",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "recycle",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "recycle",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rollout",
+      "type": "rock",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 90,
+      "pp": 20,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rollout",
+      "type": "rock",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 90,
+      "pp": 20,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "suckerpunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 9,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "suckerpunch",
+      "type": "dark",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 5,
+      "gen": 8,
+      "method": "egg",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "withdraw",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "withdraw",
+      "type": "water",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 40,
+      "gen": 8,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "sword",
+      "text": "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it’s just an apple and nothing more."
+    },
+    {
+      "game": "shield",
+      "text": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": {
+                "name": "tart-apple",
+                "url": "https://pokeapi.co/api/v2/item/1175/"
+              },
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": null,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "use-item",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "flapple",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/841/"
+          }
+        },
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": {
+                "name": "sweet-apple",
+                "url": "https://pokeapi.co/api/v2/item/1174/"
+              },
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": null,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "use-item",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "appletun",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/842/"
+          }
+        },
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": {
+                "name": "syrupy-apple",
+                "url": "https://pokeapi.co/api/v2/item/2109/"
+              },
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": null,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "use-item",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/3/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [
+            {
+              "evolution_details": [
+                {
+                  "base_form": null,
+                  "gender": null,
+                  "held_item": null,
+                  "item": null,
+                  "known_move": {
+                    "name": "dragon-cheer",
+                    "url": "https://pokeapi.co/api/v2/move/913/"
+                  },
+                  "known_move_type": null,
+                  "location": null,
+                  "min_affection": null,
+                  "min_beauty": null,
+                  "min_damage_taken": null,
+                  "min_happiness": null,
+                  "min_level": null,
+                  "min_move_count": null,
+                  "min_steps": null,
+                  "needs_multiplayer": false,
+                  "needs_overworld_rain": false,
+                  "party_species": null,
+                  "party_type": null,
+                  "region": null,
+                  "relative_physical_stats": null,
+                  "time_of_day": "",
+                  "trade_species": null,
+                  "trigger": {
+                    "name": "level-up",
+                    "url": "https://pokeapi.co/api/v2/evolution-trigger/1/"
+                  },
+                  "turn_upside_down": false,
+                  "used_move": null
+                }
+              ],
+              "evolves_to": [],
+              "is_baby": false,
+              "species": {
+                "name": "hydrapple",
+                "url": "https://pokeapi.co/api/v2/pokemon-species/1019/"
+              }
+            }
+          ],
+          "is_baby": false,
+          "species": {
+            "name": "dipplin",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/1011/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "applin",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/840/"
+      }
+    },
+    "bulbapedia_condition": "= Applin evolves into , , or . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"float:center; display:flex; flex-flow:row wrap;\"> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 7,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:04:17.998Z"
+}

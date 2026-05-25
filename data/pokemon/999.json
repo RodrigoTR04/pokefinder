@@ -1,0 +1,470 @@
+{
+  "id": 999,
+  "name": "gimmighoul",
+  "display_name": "gimmighoul",
+  "types": [
+    "ghost"
+  ],
+  "height_m": 0.3,
+  "weight_kg": 5,
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 70,
+    "special-attack": 75,
+    "special-defense": 70,
+    "speed": 10
+  },
+  "abilities": [
+    {
+      "name": "rattled",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png",
+  "artwork_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/999.png",
+  "species": {
+    "habitat": null,
+    "color": "brown",
+    "shape": "blob",
+    "generation": "generation-ix",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "base_happiness": 50,
+    "egg_groups": [
+      "no-eggs"
+    ],
+    "hatch_counter": 50,
+    "gender_rate": -1,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "locations": [
+    {
+      "game": "scarlet",
+      "location": "'''Chest Form''' South Province: Area One: On cliff north of Poco Path Lighthouse Area Two, Area Three, Area Four, Area Five, Area Six: on Watchtowers & Leaking Tower of Paldea East Province: Area One: on Watchtower, and on plateau west of Area Two's southwestern Pokémon Center Area Three: on Watchtower West Province: Area One: on Watchtower Area Two: inside Colonnade Hollow West Paldean Sea: on nearest island southwest of Porto Marinada Asado Desert: on Watchtower, on rock formation south of Watchtower, and in Ruins north of Watchtower North Province: Area One: on Watchtower, and in Ruins southwest of lake Area Two: in center of shallow pond west of Firescourge Shrine Casseroya Lake: on Watchtowers #1, #2, and #3, in Ruins between Watchtowers #1 & #2, and on northwest side of central rock formation in Socarrat Trail Glaseado Mountain: on Watchtower, near top of waterfall west of Montenevera, and in Ruins west of Dalizapa Passage '''Roaming Form'''",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "violet",
+      "location": "'''Chest Form''' South Province: Area One: On cliff north of Poco Path Lighthouse Area Two, Area Three, Area Four, Area Five, Area Six: on Watchtowers & Leaking Tower of Paldea East Province: Area One: on Watchtower, and on plateau west of Area Two's southwestern Pokémon Center Area Three: on Watchtower West Province: Area One: on Watchtower Area Two: inside Colonnade Hollow West Paldean Sea: on nearest island southwest of Porto Marinada Asado Desert: on Watchtower, on rock formation south of Watchtower, and in Ruins north of Watchtower North Province: Area One: on Watchtower, and in Ruins southwest of lake Area Two: in center of shallow pond west of Firescourge Shrine Casseroya Lake: on Watchtowers #1, #2, and #3, in Ruins between Watchtowers #1 & #2, and on northwest side of central rock formation in Socarrat Trail Glaseado Mountain: on Watchtower, near top of waterfall west of Montenevera, and in Ruins west of Dalizapa Passage '''Roaming Form'''",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "mega-dimension",
+      "location": "Hyperspace Lumiose (requires Special Scan) ('''Chest Form'''), Received upon starting Side Mission 122: \"Let's Golden Goooooo!\" (Only one) ('''Chest Form''')",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "go",
+      "location": "Coin Bag, PokéStop with a placed Golden Lure Module ('''Roaming Form''')",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "masters-ex",
+      "location": "Variety sync pair scout: ('''Roaming Form'''), ('''Chest Form''')",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
+  "learnset": [
+    {
+      "move": "astonish",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "astonish",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "astonish",
+      "type": "ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "confuseray",
+      "type": "ghost",
+      "category": "status",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "endure",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hex",
+      "type": "ghost",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "hex",
+      "type": "ghost",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "lightscreen",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 30,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nastyplot",
+      "type": "dark",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "nightshade",
+      "type": "ghost",
+      "category": "special",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "powergem",
+      "type": "rock",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "powergem",
+      "type": "rock",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "protect",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "reflect",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "rest",
+      "type": "psychic",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 5,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "shadowball",
+      "type": "ghost",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "shadowball",
+      "type": "ghost",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "sleeptalk",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "substitute",
+      "type": "normal",
+      "category": "status",
+      "power": null,
+      "accuracy": true,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "level-up",
+      "level": 1,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "tackle",
+      "type": "normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "takedown",
+      "type": "normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "gen": 9,
+      "method": "special",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "terablast",
+      "type": "normal",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    },
+    {
+      "move": "thief",
+      "type": "dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "gen": 9,
+      "method": "machine",
+      "level": null,
+      "source": "showdown"
+    }
+  ],
+  "flavor_texts": [
+    {
+      "game": "scarlet",
+      "text": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure."
+    },
+    {
+      "game": "violet",
+      "text": "It lives inside an old treasure chest. Sometimes it gets left in shop corners since no one realizes it’s actually a Pokémon."
+    }
+  ],
+  "evolution": {
+    "chain": {
+      "evolution_details": [],
+      "evolves_to": [
+        {
+          "evolution_details": [
+            {
+              "base_form": null,
+              "gender": null,
+              "held_item": null,
+              "item": null,
+              "known_move": null,
+              "known_move_type": null,
+              "location": null,
+              "min_affection": null,
+              "min_beauty": null,
+              "min_damage_taken": null,
+              "min_happiness": null,
+              "min_level": null,
+              "min_move_count": null,
+              "min_steps": null,
+              "needs_multiplayer": false,
+              "needs_overworld_rain": false,
+              "party_species": null,
+              "party_type": null,
+              "region": null,
+              "relative_physical_stats": null,
+              "time_of_day": "",
+              "trade_species": null,
+              "trigger": {
+                "name": "gimmighoul-coins",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/16/"
+              },
+              "turn_upside_down": false,
+              "used_move": null
+            }
+          ],
+          "evolves_to": [],
+          "is_baby": false,
+          "species": {
+            "name": "gholdengo",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/1000/"
+          }
+        }
+      ],
+      "is_baby": false,
+      "species": {
+        "name": "gimmighoul",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/999/"
+      }
+    },
+    "bulbapedia_condition": "= Gimmighoul evolves into . (For specifics on this Pokémons Evolution in the games, refer to #Evolution data.) <div style=\"display: flex; flex-wrap: wrap; justify-content: space-evenly\"> <div style=\"max-width:100%; text-align:center;\"> </div> </div>"
+  },
+  "_sources": {
+    "pokeapi": true,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 5,
+    "showdown": true
+  },
+  "_generated_at": "2026-05-25T02:07:09.760Z"
+}
