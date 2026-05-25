@@ -576,8 +576,12 @@ async function buildPokemon(id, showdown) {
   const sdLearnset = sdLearnsets[sdSlug]?.learnset || sdLearnsets[toShowdownSlug(species?.name || '')]?.learnset || null;
 
   // 3. Bulbapedia
-  const displayName = (species?.name || poke.name).split('-')[0];
-  const bulbaName = displayName.charAt(0).toUpperCase() + displayName.slice(1);
+  // Convert full hyphenated name to title-cased page name: "iron-treads" → "Iron Treads"
+  const rawDisplayName = species?.name || poke.name;
+  const bulbaName = rawDisplayName
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
   vlog(`  fetching bulbapedia for ${bulbaName}`);
   const wikitext = await fetchBulbapedia(bulbaName);
   const { rows: bulbaLocations, strategy: bulbaStrategy } = parseGameLocations(wikitext, bulbaName);

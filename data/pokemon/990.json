@@ -41,7 +41,24 @@
     "is_legendary": false,
     "is_mythical": false
   },
-  "locations": [],
+  "locations": [
+    {
+      "game": "violet",
+      "location": "West Province: Asado DesertFormer Titan (Only one), Area Zero",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    },
+    {
+      "game": "masters-ex",
+      "location": "Variety sync pair scout:",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
   "learnset": [
     {
       "move": "bodypress",
@@ -908,10 +925,10 @@
   },
   "_sources": {
     "pokeapi": true,
-    "bulbapedia": false,
-    "bulbapedia_location_strategy": null,
-    "bulbapedia_location_rows": 0,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 2,
     "showdown": true
   },
-  "_generated_at": "2026-05-25T02:07:01.387Z"
+  "_generated_at": "2026-05-25T02:28:38.593Z"
 }

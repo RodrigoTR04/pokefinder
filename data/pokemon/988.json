@@ -41,7 +41,16 @@
     "is_legendary": false,
     "is_mythical": false
   },
-  "locations": [],
+  "locations": [
+    {
+      "game": "scarlet",
+      "location": "Area Zero",
+      "rarity": null,
+      "method": null,
+      "levels": null,
+      "source": "bulbapedia"
+    }
+  ],
   "learnset": [
     {
       "move": "acrobatics",
@@ -896,10 +905,10 @@
   },
   "_sources": {
     "pokeapi": true,
-    "bulbapedia": false,
-    "bulbapedia_location_strategy": null,
-    "bulbapedia_location_rows": 0,
+    "bulbapedia": true,
+    "bulbapedia_location_strategy": 1,
+    "bulbapedia_location_rows": 1,
     "showdown": true
   },
-  "_generated_at": "2026-05-25T02:06:58.784Z"
+  "_generated_at": "2026-05-25T02:28:36.645Z"
 }

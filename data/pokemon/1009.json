@@ -860,10 +860,10 @@
   },
   "_sources": {
     "pokeapi": true,
-    "bulbapedia": false,
+    "bulbapedia": true,
     "bulbapedia_location_strategy": null,
     "bulbapedia_location_rows": 0,
     "showdown": true
   },
-  "_generated_at": "2026-05-25T02:07:18.933Z"
+  "_generated_at": "2026-05-25T02:28:46.570Z"
 }
